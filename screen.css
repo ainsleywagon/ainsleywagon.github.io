@@ -220,7 +220,7 @@ div#preload { display: none; }
 		}	
 		
 		.about a:hover {
-		color:#b23e3b;
+		color:#2b79fb;
 		text-decoration: none;	
 		
 		}		
@@ -307,9 +307,11 @@ h1 {
 	height:36px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
-	
-	
 	 }
+	 
+#aboutpic {
+  padding: 50px;
+}
 	
 	
 	/* Footer */
