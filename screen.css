@@ -49,8 +49,6 @@ div#preload { display: none; }
 	background-position: left center;
 	background-color:none;
 	background-repeat: no-repeat;
-			
-
 }
 
 #aboutlink {
@@ -253,6 +251,22 @@ div#preload { display: none; }
 
 /* Sections */
 
+#intro {    
+  max-width: 100%;  
+	padding-top:80px;
+	text-align: center;
+	margin:auto;	
+}
+
+
+#intro img {
+  max-width: 325px;
+	width:38%;
+	min-width: 200px;
+  height:auto;
+	max-height: auto;
+	 }
+	 
 #pattern {
   background-image:url('images/freshpattern.png');
   background-repeat: repeat;
@@ -286,22 +300,6 @@ h1 {
   background-position: center;
 }
 
-#intro {    
-  max-width: 100%;  
-	padding-top:80px;
-	text-align: center;
-	margin:auto;	
-}
-
-
-#intro img {
-  max-width: 325px;
-	width:38%;
-	min-width: 200px;
-  height:auto;
-	max-height: auto;
-	 }
-
 .info  {
 	margin: 0 auto;
 	padding-top: 5px; padding-bottom:100px;
@@ -312,29 +310,6 @@ h1 {
 	
 	
 	 }
-	
-
-/*
-.address  {
-	
-	padding-bottom:12px;
-	font-style: normal;
-	font-weight: 300;
-	font-size:15px;
-	letter-spacing: 4px;
-	text-transform: uppercase;
-	 }
-	
-.neighborhood  {
-	
-	font-style: normal;
-	font-weight: 300;	
-	font-size:10px;
-	letter-spacing: 4px;
-	text-transform: uppercase;
-	
-	 }
-*/
 	
 	
 	/* Footer */
@@ -351,10 +326,7 @@ h1 {
 	font-size: 15px;
 	}
 
-.likewindows { padding-top:3px;  height: 30px; width: 120px; float: left;}
-.tweet { margin-left: 15px;  height: 30px; width: 120px; float: left;}
-.follow { margin-left: -5px; margin-right: 25px; float: left;}
-.like { margin-left: 18px; height: 30px; width: 120px; float: left;}
+
 #legal {	
 	float: right;
 	background: none;
