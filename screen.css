@@ -170,14 +170,30 @@ div#preload { display: none; }
 
 /* Intro */
 #intro {
-  height: 625px;
+  height: 575px;
+  padding: 0px;
 }
 
 #greeting {
   font-family: 'Signika', Helvetica-Neue, sans-serif;
   font-weight: 400;
   font-size: 1.5em; 
-  color: rgba(52,52,52,1);
+  line-height: 1.3;
+  color: #939296;
+
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: #939296;
+}
+
+.list a:hover {
+  color: #ffdfc7;
 }
 
 /* PATTERNS */
@@ -218,7 +234,7 @@ div#preload { display: none; }
 		}	
 		
 		.about a:hover {
-		color:#2b79fb;
+		color: #939296;
 		text-decoration: none;	
 		
 		}		
@@ -251,7 +267,7 @@ div#preload { display: none; }
   max-width: 100%;  
 	padding-top:80px;
 	text-align: center;
-	margin:auto;	
+	margin: auto;	
 }
 
 
@@ -278,7 +294,7 @@ h1 {
   max-width: 100%;  
 	padding: 100px; 
 	text-align: center;
-	margin:auto;
+	margin: auto;
 	height: 300px;	
 }
 
@@ -303,15 +319,15 @@ ul {
 
 .info  {
 	margin: 0 auto;
-	padding-top: 5px; padding-bottom:100px;
-    
-	height:36px;
-	letter-spacing: 4px;
+	padding-top: 5px; 
+	padding-bottom: 100px;    
+	height: 36px;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 	 }
 	 
 #aboutpic {
-  padding: 50px;
+  padding: 30px;
 }
 	
 #atticuspic {
@@ -321,7 +337,7 @@ ul {
 }
 
 #atticus {
- padding-top: 50px; 
+ padding-top: 75px; 
 }
 	
 	/* Footer */
@@ -333,7 +349,7 @@ ul {
 	margin: 0 auto;
 	font-style: normal;
 	font-weight: 600;
-	color:#464c50;
+	color: #464c50;
 	padding-top:30px;
 	font-size: 15px;
 	}
@@ -379,7 +395,6 @@ ul {
 						
 						#headerwrapper {
 							width: 100%;
-							background-color: #f7f8f4;
 							margin: 0 auto;
 							text-align: center;
 							z-index: 10000;
@@ -387,13 +402,17 @@ ul {
 							 }						
 					
 						#intro {
-							padding:40px 0 30px 0;}
+							height: 300px;
+							}
+		
 							
-						#intro img {
+						#biopic img {
 						    width: 50%;
 						    height: 50%;
-							
+						    padding: none;
 							 }	
+							
+							
 							.address  {
 								padding-bottom:16px;
 								font-size:26px;
