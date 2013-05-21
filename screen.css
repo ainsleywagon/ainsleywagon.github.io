@@ -279,7 +279,7 @@ div#preload { display: none; }
 	 }
 	 
 #pattern {
-  background-image:url('images/freshpattern.png');
+  background-image: url('images/freshpattern.png');
   background-repeat: repeat;
 }
 
