@@ -9,7 +9,7 @@ body {
 	margin: 0 auto ;
 	font-size: 13px;
 	text-align: center;	
-	font-family: 'Signika', Helvetica, sans-serif;	
+	font-family: 'Signika', Helvetica, sans-serif;
 }	
 
 div#preload { display: none; }
@@ -18,14 +18,12 @@ div#preload { display: none; }
 
 #headerwrapper {
 	width: 100%;
-	background-color: #ffffff;
 	margin: 0 auto;
 	top: 0; left: 0;
 	text-align: center;
-	z-index: 10000;
-	position: relative;
-	
-			
+	z-index: 9998;
+	position: fixed;
+	background: rgba(255,255,255,0.9);			
 }
 
 #header {
@@ -41,7 +39,7 @@ div#preload { display: none; }
 }
 
 #aboutlink {
-	background-color:none;
+	background-color: none;
 	float: right;
 	margin: 47px 50px 0px 0px;
 	padding:9px 5px 9px 5px;
@@ -211,7 +209,7 @@ div#preload { display: none; }
 	margin:auto;
 	font-style: normal;
 	font-weight: 300;
-	background-color: #ffdfc7;
+/* 	background-color: #ffdfc7; */
 	font-size: 24px;
 	line-height: 41px;	
 	}
@@ -348,7 +346,7 @@ ul {
 	margin: 0 auto;
 	font-style: normal;
 	font-weight: 600;
-	color: #464c50;
+/* 	color: #464c50; */
 	padding-top:30px;
 	font-size: 15px;
 	}
@@ -363,12 +361,45 @@ ul {
 	color:#bdc0c2;
 	font-size: 14px;
 	}
+	
+/* Body Border */
+#top, #bottom, #left, #right {
+  background: #ffa394;
+  position: fixed;
+  z-index: 9999;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+    }
+    #left { left: 0; }
+    #right { right: 0; }
+  
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+    }
+    #top { top: 0; }
+    #bottom { bottom: 0; }
 		
 		
 		/* Media queries
 		-------------------------------------------------------------------------------*/
 
 	
+		/* Body Border */
+		@media 
+      /* Fairly small screens including iphones */
+      only screen and (max-width: 500px),
+      
+      /* iPads */
+      only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+      
+      {
+      	#top, #bottom, #left, #right { display: none; }
+      }
+
+		
 		/* Tablet */
 		@media only screen and (min-width: 768px) and (max-width: 1023px) {
 			#aboutlink { display:none;}
@@ -396,7 +427,7 @@ ul {
 							width: 100%;
 							margin: 0 auto;
 							text-align: center;
-							z-index: 10000;
+							z-index: 9998;
 							position: relative; 
 							 }						
 					
