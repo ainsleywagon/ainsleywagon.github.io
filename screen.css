@@ -200,7 +200,7 @@ ul {
 /* Contact */
 #contact {    
 	width: 100%; 
-	padding-top:0px; 
+	padding-top:100px; 
 	padding-bottom:85px;
 	line-height: 41px;	
 	}
@@ -237,12 +237,7 @@ ul {
 			-o-transition: all 0.2s ease-in-out;
 			-ms-transition: all 0.2s ease-in-out;
 			transition: all 0.2s ease-in-out;
-		}	
-	
-    .contacttitle 	{
-		letter-spacing: 2px;			
 		}
-
 
     #content {max-width:100%; padding-top:0; margin:auto; position: relative; margin-top:-50px;
       z-index: 1;
