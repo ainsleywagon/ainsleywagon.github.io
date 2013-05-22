@@ -60,12 +60,11 @@ div#preload { display: none; }
 
 #headerwrapper {
 	width: 100%;
-	margin: 0 auto;
-	top: 0; left: 0;
+	margin: 25px;
+	top: 0; left: 0; right: 0;
 	text-align: center;
 	z-index: 9998;
 	position: fixed;
-	background: rgba(255,255,255,0.9);			
 }
 
 #header {
@@ -76,10 +75,14 @@ div#preload { display: none; }
 	text-align: center;
 	background-image:url('head.png');
 	background-position: left center;
-	background-color:none;
+	background-color: none;
 	background-repeat: no-repeat;
 }
 	
+.headerlinks {
+  margin-right: 50px;
+}
+
 .social {
     height: 40px; 
 		width:40px;
