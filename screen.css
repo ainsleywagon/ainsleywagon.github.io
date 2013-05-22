@@ -7,7 +7,6 @@
 body {
 	padding: 0px 0 0 0;
 	margin: 0 auto ;
-	font-size: 13px;
 	text-align: center;	
 	font-family: 'Signika', Helvetica, sans-serif;
 }	
@@ -139,46 +138,71 @@ div#preload { display: none; }
 		background-image:url('workh.png');
 				}						
 
-/* Intro */
-#intro {
-  height: 575px;
-  padding: 0px;
-}
+/* Section Styling */
 
-#greeting {
-  font-family: 'Signika', Helvetica-Neue, sans-serif;
-  font-weight: 400;
-  font-size: 1.5em; 
-  line-height: 1.3;
+.text {
   color: #939296;
-
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
-.list {
-  list-style-type: none;
+.section {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.list a {
+a {
   text-decoration: none;
   color: #939296;
 }
 
-.list a:hover {
+a:hover {
   color: #ffdfc7;
 }
 
+/* Intro */
+#intro {
+  height: 575px;
+  padding: 0px;
+	padding-top: 220px;
+}
+
+#intropic {
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+#intro img {
+  max-width: 325px;
+	width: 38%;
+	min-width: 200px;
+  height: auto;
+	max-height: auto;
+	 }
+
+ul {
+  padding-top: 35px;
+  list-style-position: inside;
+  margin-left: -50px;
+  list-style-type: none;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+/* Stemmings */
+
+#stemmings {
+  padding-top: 150px;
+}
+
 /* Contact */
-.contact {    
+#contact {    
 	width: 100%; 
 	padding-top:0px; 
 	padding-bottom:85px;
-	text-align: center;
-	margin:auto;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 22px;
 	line-height: 41px;	
-	color: #939296;
 	}
 	
 #contactlink {
@@ -187,14 +211,7 @@ div#preload { display: none; }
 	margin: 47px 50px 0px 0px;
 	padding:9px 5px 9px 5px;
 	position: relative;	
-	font-style: normal;
-	font-weight: 300;
-	font-size:17px;
-	letter-spacing:3px;
-	text-transform:none;
-	border-bottom: 1px solid #adb6b8;
-	border-top: 1px solid #adb6b8;
-	color: #adb6b8;
+	letter-spacing: 3px;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -213,10 +230,6 @@ div#preload { display: none; }
 	}	
 	
 	.contact a {
-		font-style: normal;
-		font-weight: 500;
-		color: #939296;
-		text-decoration: none;	
 		padding: 0 20px 0 20px;
 		margin: 30px 0 0 0;
 			-webkit-transition: all 0.2s ease-in-out;
@@ -225,16 +238,8 @@ div#preload { display: none; }
 			-ms-transition: all 0.2s ease-in-out;
 			transition: all 0.2s ease-in-out;
 		}	
-		
-		.contact a:hover {
-		color: #ffdfc7;
-		text-decoration: none;		
-		}		
 	
     .contacttitle 	{
-		font-style: normal;
-		font-weight: 500;
-		font-size: 22px;
 		letter-spacing: 2px;			
 		}
 
@@ -256,39 +261,10 @@ div#preload { display: none; }
 #atticus {
  padding-top: 75px; 
 }
-
-/* Intro */
-
-#intropic {
-  margin-bottom: 40px;
-  margin-top: 25px;
-}
-
-#intro {    
-  max-width: 100%;  
-	padding-top: 220px;
-	text-align: center;
-	margin: auto;	
-}
-
-
-#intro img {
-  max-width: 325px;
-	width:38%;
-	min-width: 200px;
-  height:auto;
-	max-height: auto;
-	 }
-
-ul {
-  list-style-position: inside;
-  margin-left: -50px;
-}
 	
-	/* Footer */
+/* Footer */
 
 #footer {   
-	width:1000px;
 	height:50px;
 	text-align: left;
 	margin: 0 auto;
@@ -301,11 +277,10 @@ ul {
 
 #legal {	
 	float: right;
+	margin-right: 30px;
 	background: none;
-	padding-top:5px;
-	font-style: normal;
-	font-weight: 400;
-	color:#bdc0c2;
+	padding-top: 5px;
+	color: #bdc0c2;
 	font-size: 14px;
 	}
 	
