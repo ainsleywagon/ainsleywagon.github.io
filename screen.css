@@ -201,7 +201,7 @@ ul {
 #contact {    
 	width: 100%; 
 	padding-top:100px; 
-	padding-bottom:85px;
+	padding-bottom:15px;
 	line-height: 41px;	
 	}
 		
@@ -210,7 +210,7 @@ ul {
       }
 
 #contactpic {
-  padding: 30px;
+  padding: 20px;
 }
 	
 #atticus {
@@ -225,7 +225,6 @@ ul {
 	margin: 0 auto;
 	font-style: normal;
 	font-weight: 600;
-	padding-top:30px;
 	font-size: 15px;
 	}
 
@@ -234,7 +233,6 @@ ul {
 	float: right;
 	margin-right: 30px;
 	background: none;
-	padding-top: 5px;
 	color: #bdc0c2;
 	font-size: 14px;
 	}
@@ -321,9 +319,7 @@ ul {
 									height:50px;
 									text-align: center;
 									margin: 0 90px 0 0;
-								
 									color:#464c50;
-                  padding-top:30px;
 									font-size: 18px;
 								}	
 
