@@ -204,42 +204,8 @@ ul {
 	padding-bottom:85px;
 	line-height: 41px;	
 	}
-	
-#contactlink {
-	background-color: none;
-	float: right;
-	margin: 47px 50px 0px 0px;
-	padding:9px 5px 9px 5px;
-	position: relative;	
-	letter-spacing: 3px;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-	}
-	
-#contactlink a {
-	text-decoration: none; 
-	color: #adb6b8;
-		-webkit-transition: all 0.2s ease-in-out;
-	 	-moz-transition: all 0.2s ease-in-out;
-	 	-o-transition: all 0.2s ease-in-out;
-		-ms-transition: all 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out;
-	}	
-	
-	.contact a {
-		padding: 0 20px 0 20px;
-		margin: 30px 0 0 0;
-			-webkit-transition: all 0.2s ease-in-out;
-			-moz-transition: all 0.2s ease-in-out;
-			-o-transition: all 0.2s ease-in-out;
-			-ms-transition: all 0.2s ease-in-out;
-			transition: all 0.2s ease-in-out;
-		}
-
-    #content {max-width:100%; padding-top:0; margin:auto; position: relative; margin-top:-50px;
+		
+#content {max-width:100%; padding-top:0; margin:auto; position: relative; margin-top:-50px;
       z-index: 1;
       }
 
@@ -247,12 +213,6 @@ ul {
   padding: 30px;
 }
 	
-#atticuspic {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 #atticus {
  padding-top: 75px; 
 }
@@ -344,30 +304,8 @@ ul {
 					
 						#intro {
 							height: 300px;
-							}
-		
-							
-						#biopic img {
-						    width: 50%;
-						    height: 50%;
-						    padding: none;
-							 }	
-															
-								.contact {
-									font-family: 'Signika', Helvetica-Neue, sans-serif;
-									font-style: normal;
-									font-weight: 300;
-									font-size: 32px;
-									line-height: 54px;	
-									}
-									
-									.contact a {
-										font-size: 26px;
-										color:white;
-										text-decoration: none;	
-										padding: 0 0 20px 0;									
-										}	
-
+							}	
+														
 										.contact a:hover {							
 										color:#b23e3b;
 										text-decoration: none;	
