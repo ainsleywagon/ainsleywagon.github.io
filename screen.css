@@ -72,7 +72,7 @@ div#preload { display: none; }
 	margin: 0 auto;
 	top: 0; left: 0;
 	text-align: center;
-	background-image:url('head.png');
+	background-image:url('images/head.png');
 	background-position: left center;
 	background-color: none;
 	background-repeat: no-repeat;
@@ -99,43 +99,43 @@ div#preload { display: none; }
 }
 
 #tumblr {
-		background-image:url('tumblrlink.png');
+		background-image:url('images/tumblrlink.png');
 		}
 		
 #tumblr:hover {	
-		background-image:url('tumblrh.png');
+		background-image:url('images/tumblrh.png');
 				}	
 
 #dribbble {
-		background-image:url('dribbblelink.png');
+		background-image:url('images/dribbblelink.png');
 		}
 		
 #dribbble:hover {	
-		background-image:url('dribbbleh.png');
+		background-image:url('images/dribbbleh.png');
 				}	
 
 #twitter {
-		background-image:url('twitterlink.png');
+		background-image:url('images/twitterlink.png');
 		}
 		
 #twitter:hover {	
-		background-image:url('twitterh.png');
+		background-image:url('images/twitterh.png');
 				}	
 				
 #instagram {
-		background-image:url('instalink.png');
+		background-image:url('images/instalink.png');
 		}
 		
 #instagram:hover {	
-		background-image:url('instah.png');
+		background-image:url('images/instah.png');
 				}	
 				
 #work {
-		background-image:url('worklink.png');
+		background-image:url('images/worklink.png');
 		}
 		
 #work:hover {	
-		background-image:url('workh.png');
+		background-image:url('images/workh.png');
 				}						
 
 /* Section Styling */
