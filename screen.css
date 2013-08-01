@@ -216,6 +216,10 @@ ul {
 #atticus {
  padding-top: 75px; 
 }
+
+#contactpic:hover {
+/*   background-image:url('images/atticus_inverted.png'); */
+}
 	
 /* Footer */
 
