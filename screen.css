@@ -10,53 +10,8 @@ body {
 	text-align: center;	
 	font-family: 'Signika', Helvetica, sans-serif;
 }	
-
-div#preload { display: none; }
 	
-/*  Sticky Links */
-
-#stickyheader { 
-	height:100px;
-	width:100px;
-	background-image:url('arrow.png'); 
-	background-position:center; 
-	background-repeat: no-repeat;
-	position: fixed;
-	margin: 0 auto;
-	z-index:300;
-	top: 0;
-		-webkit-transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out;
-		-ms-transition: all 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out;
-	}
-	
-#stickyheader:hover { background-image:url('arrowh.png');
-		}
-
-#stickymobile { display:none; width: 100%; height: 80px; position: fixed; z-index:300; margin-top: 20px;}
-		
-#mobiletop {
-		float: left; 
-		height:80px;
-		width:80px;
-		background-image:url('arrow2x.png'); background-position:center; background-repeat: no-repeat;				
-		margin-left:20px;
-		z-index:301;		 
-		}
-
-#mobileabout {
-    float: right;  
-		height:80px;
-		width:80px;
-		background-image:url('i.png'); background-position:center; background-repeat: no-repeat;
-		margin-right:20px;	
-		z-index:301;			
-			}	
-
 /* Header */
-
 #headerwrapper {
 	width: 100%;
 	margin: 25px;
@@ -244,7 +199,7 @@ ul {
 /* Body Border */
 
 #top, #bottom, #left, #right {
-  background: #ffa394;
+  background: #2cffd7;
   position: fixed;
   z-index: 9999;
   }
@@ -326,9 +281,6 @@ ul {
 									color:#464c50;
 									font-size: 18px;
 								}	
-
-#stickymobile { display:block; }
-#stickyheader { display: none; }
 
 #legal {	
 display:none;
