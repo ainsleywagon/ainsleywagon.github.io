@@ -14,9 +14,9 @@ body {
 #background {
   height: auto;
   width: auto;
-	background-image: url('images/bg-pattern.png');
+	background-image: url('images/bg_pattern.png');
 	z-index: 9995;
-/* 	background-repeat: repeat;   */
+	background-repeat: repeat;  
 }	
 	
 /* Header */
