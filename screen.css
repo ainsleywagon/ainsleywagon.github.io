@@ -9,6 +9,14 @@ body {
 	margin: 0 auto ;
 	text-align: center;	
 	font-family: 'Signika', Helvetica, sans-serif;
+}
+
+#background {
+  height: auto;
+  width: auto;
+	background-image: url('images/bg-pattern.png');
+	z-index: 9995;
+/* 	background-repeat: repeat;   */
 }	
 	
 /* Header */
