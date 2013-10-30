@@ -122,10 +122,14 @@ a {
 }
 
 a:hover {
-  color: #ffdfc7;
+  color: #000000;
 }
 
 /* Intro */
+#blacktext {
+  color: #000000;
+}
+
 #intro {
   height: 575px;
   padding: 0px;
