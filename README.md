@@ -1,5 +1,4 @@
 ainsleywagon
 ============
 
-New and improved site
-
+New and improved site, yay!
