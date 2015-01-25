@@ -53,12 +53,30 @@ body > .container {
 }
 
 h1 {
-  font-family: 'Droid Serif,' serif;
+}
+
+.button {
+  border: 2px solid palegreen;
+  color: palegreen;
+}
+
+.button:hover {
+  background-color: palegreen;
+  color: white;
 }
 
 #name {
   text-align: center;
   font-family: 'Karla', sans-serif;
+}
+
+.big-project-image {
+  margin-top: 50px;
+}
+
+.big-project-descr {
+  margin-top: 50px;
+  text-align: left;
 }
 
 .footer > .container {
