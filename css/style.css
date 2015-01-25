@@ -1,6 +1,5 @@
-#name {
-  text-align: center;
-}
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 
 .navbar-default {
   background-color: #F8F8F8;
@@ -28,7 +27,9 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  font-family: 'Karla', sans-serif;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -49,6 +50,15 @@ body > .container {
 }
 .container .text-muted {
   margin: 20px 0;
+}
+
+h1 {
+  font-family: 'Droid Serif,' serif;
+}
+
+#name {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
 }
 
 .footer > .container {
