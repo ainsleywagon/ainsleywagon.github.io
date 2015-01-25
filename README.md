@@ -1,4 +1,4 @@
-ainsleywagon
+Ainsley Wagoner Portfolio
 ============
 
-New and improved site, yay!!!
+Finally doing it myself, by golly!
