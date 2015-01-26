@@ -70,15 +70,6 @@ h1 {
   font-family: 'Karla', sans-serif;
 }
 
-.big-project-image {
-  margin-top: 50px;
-}
-
-.big-project-descr {
-  margin-top: 50px;
-  text-align: left;
-}
-
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -101,6 +92,20 @@ code {
   text-align: center;
 }
 
+.big-project-image {
+  margin-top: 50px;
+}
+
+.big-project-descr-left {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.big-project-descr-right {
+  margin-top: 50px;
+  text-align: right;
+}
+
 .small-project {
   background-image: url('../images/pattern-2-light.png');
   height: 100%;
@@ -111,6 +116,19 @@ code {
   background-image: url('../images/pattern-1-dark.png');
   height: 100%;
   text-align: center;
+}
+
+.btn.small-project-title {
+  background-color: white;
+  color: purple;
+  border: 2px solid purple;
+  margin-top: 150px;
+}
+
+.btn.small-project-title:hover {
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
 }
 
 .resume {
