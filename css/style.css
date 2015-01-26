@@ -52,16 +52,17 @@ body > .container {
   margin: 20px 0;
 }
 
-h1 {
+.navbar-brand {
+  padding-top: 0px;
 }
 
 .button {
-  border: 2px solid palegreen;
-  color: palegreen;
+  border: 2px solid black;
+  color: black;
 }
 
 .button:hover {
-  background-color: palegreen;
+  background-color: black;
   color: white;
 }
 
