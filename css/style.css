@@ -153,3 +153,16 @@ code {
 .social-media li:hover {
   color: DarkCyan;
 }
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+  .footer {
+    position: relative;
+  }
+  .projects {
+    height: auto;
+  }
+  body {
+    margin-bottom: 0px;
+  }
+}
