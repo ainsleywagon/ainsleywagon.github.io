@@ -143,6 +143,10 @@ code {
   text-align: center;
 }
 
+.resume .button {
+  margin-top: 100px;
+}
+
 .social-media ul {
   margin-left: -35px;
 }
@@ -168,6 +172,21 @@ code {
   }
   body {
     margin-bottom: 0px;
+  }
+  .button {
+    margin-bottom: 50px;
+  }
+  .big-project-descr-left, .big-project-descr-right {
+    text-align: center;
+  }
+  .btn.small-project-title {
+    margin: 100px;
+  }
+  .resume {
+    height: auto;
+  }
+  .resume .button {
+    margin: 100px;
   }
 }
 
