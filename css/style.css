@@ -154,7 +154,7 @@ code {
 .button-link.small-project-title:hover {
   background-color: purple;
   color: white;
-  border: 2px solid white;
+  border: 2px solid purple;
 }
 
 .resume {
@@ -185,6 +185,11 @@ code {
 
 /* PROJECT PAGE TEMPLATE */
 
+.project-nav {
+  margin: 0px 30px;
+  padding-top: 20px;
+}
+
 .project-page {
   margin-left: auto;
   margin-right: auto;
@@ -202,6 +207,19 @@ code {
   font-weight: bold;
 }
 
+.next, .back {
+  color: gray;
+  border: 2px solid gray;
+}
+
+.next:hover, .back:hover {
+  background-color: gray;
+}
+
+.next {
+  float: right;
+}
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   .footer {
@@ -213,13 +231,13 @@ code {
   body {
     margin-bottom: 0px;
   }
-  .button {
+  .button-link {
     margin-bottom: 50px;
   }
   .big-project-descr-left, .big-project-descr-right {
     text-align: center;
   }
-  .btn.small-project-title {
+  .button-link.small-project-title {
     margin: 100px;
   }
   .resume {
