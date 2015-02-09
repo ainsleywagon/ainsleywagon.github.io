@@ -194,17 +194,22 @@ code {
   padding-top: 20px;
 }
 
-.project-page {
-  margin-left: auto;
-  margin-right: auto;
+.project-page img {
+  display: block;
+  margin: 0 auto;
 }
 
-.project-header img {
-  margin: 40px;
+.row.project-header {
+  margin-top: 40px;
 }
 
 .project-description {
   margin-top: 20px;
+}
+
+.project-text {
+  text-align: center;
+  max-width: 700px;
 }
 
 .project-descr-subheader {
