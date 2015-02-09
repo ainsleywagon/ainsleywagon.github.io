@@ -85,6 +85,10 @@ code {
   font-size: 80%;
 }
 
+.right {
+  float: right;
+}
+
 
 /*FRONT PAGE PROJECTS*/
 .projects {
@@ -218,6 +222,79 @@ code {
 
 .next {
   float: right;
+}
+
+/* Resume */
+
+#resume {
+  background-color: papayawhip;
+  height: auto;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+#resume .inner {
+  max-width: 700px;
+  padding: 15px;
+}
+
+.inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.section-tagline {
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #CEC8C8;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+img.icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  float: left;
+  display: block;
+  margin-left: -95px;
+  margin-top: 5px;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 0;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all .4s ease;
+}
+
+a img {
+  border: none;
+}
+
+img.icon:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+}
+
+.resume-description {
+  font-size: 18px;
+}
+
+.skill {
+  border: 1px solid cornflowerblue;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.3333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+  border-radius: 8px;
 }
 
 /* Media Queries */
