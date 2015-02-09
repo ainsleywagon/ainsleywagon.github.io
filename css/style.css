@@ -255,6 +255,16 @@ img.about {
   height: 200px;
   width: auto;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#about {
+  padding: 40px 0px;
+}
+
+#about, .inner {
+  margin-bottom: 130px;
 }
 /* Resume */
 
