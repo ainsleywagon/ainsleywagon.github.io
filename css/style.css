@@ -227,10 +227,12 @@ code {
 /* Resume */
 
 #resume {
-  background-color: papayawhip;
+  background-color: lavender;
   height: auto;
   font-size: 19px;
   line-height: 30px;
+  margin-bottom: 160px;
+  padding-bottom: 40px;
 }
 
 #resume .inner {
@@ -249,7 +251,7 @@ code {
   font-weight: 700;
   padding-bottom: 20px;
   margin-bottom: 40px;
-  border-bottom: 1px solid #CEC8C8;
+  border-bottom: 1px solid white;
   font-size: 11px;
   text-transform: uppercase;
 }
@@ -284,7 +286,7 @@ img.icon:hover {
 }
 
 .skill {
-  border: 1px solid cornflowerblue;
+  border: 1px solid white;
   margin-right: 10px;
   text-transform: uppercase;
   font-weight: 500;
