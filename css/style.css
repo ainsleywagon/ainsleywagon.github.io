@@ -204,9 +204,13 @@ p {
 
 /* PROJECT PAGE TEMPLATE */
 
+.project-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .project-nav {
-  margin: 0px 30px;
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 .project-page img {
@@ -216,7 +220,7 @@ p {
 }
 
 .row.project-header {
-  margin-top: 40px;
+  margin: 40px 0px;
 }
 
 .project-header img {
@@ -228,9 +232,13 @@ p {
 }
 
 .project-text {
-  text-align: center;
+  text-align: left;
   max-width: 700px;
-  padding-bottom: 60px;
+  padding: 40px 0px;
+}
+
+.last {
+  padding-bottom: 200px;
 }
 
 .project-descr-subheader {
