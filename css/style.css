@@ -106,6 +106,10 @@ p {
   line-height: 1.7;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .projects {
   height: 350px;
   width: 100%;
