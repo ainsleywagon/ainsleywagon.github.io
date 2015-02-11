@@ -231,6 +231,7 @@ p {
   text-align: left;
   max-width: 700px;
   padding: 40px 0px;
+  display: inline-block;
 }
 
 .last {
