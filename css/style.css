@@ -115,6 +115,10 @@ p {
   width: 100%;
 }
 
+.project-title {
+  line-height: 1.1;
+}
+
 .big-project {
   height: 100%;
   text-align: center;
@@ -135,15 +139,33 @@ p {
 }
 
 .small-project {
-  background-image: url('../images/babyblanket.png');
   height: 100%;
   text-align: center;
 }
 
 .small-project:hover {
-  background-image: url('../images/pattern-1-dark.png');
   height: 100%;
   text-align: center;
+}
+
+.tags {
+  color: gray;
+}
+
+.pattern-1 {
+  background-image: url('../images/pattern-2-light.png')
+}
+
+.pattern-1:hover {
+  background-image: url('../images/pattern-2-dark.png')
+}
+
+.pattern-2 {
+  background-image: url('../images/pattern-2-light.png')
+}
+
+.pattern-2:hover {
+  background-image: url('../images/pattern-2-dark.png')
 }
 
 .button-link {
@@ -175,7 +197,7 @@ p {
 .resume {
   height: 350px;
   width: 100%;
-  background-color: salmon;
+  background-color: gray;
   text-align: center;
 }
 
