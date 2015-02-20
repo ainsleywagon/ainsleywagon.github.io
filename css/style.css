@@ -152,19 +152,23 @@ p {
   color: gray;
 }
 
-.pattern-1 {
+.pattern {
+  transition: background-image .5s ease-in-out;
+}
+
+.pat-1 {
   background-image: url('../images/pattern-2-light.png')
 }
 
-.pattern-1:hover {
+.pat-1:hover {
   background-image: url('../images/pattern-2-dark.png')
 }
 
-.pattern-2 {
+.pat-2 {
   background-image: url('../images/pattern-2-light.png')
 }
 
-.pattern-2:hover {
+.pat-2:hover {
   background-image: url('../images/pattern-2-dark.png')
 }
 
@@ -185,6 +189,7 @@ p {
   text-decoration: none;
   color: white;
   background-color: black;
+  transition: background .5s ease-in-out;
 }
 
 .small-project-title {
