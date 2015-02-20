@@ -165,11 +165,11 @@ p {
 }
 
 .pat-2 {
-  background-image: url('../images/pattern-2-light.png')
+  background-image: url('../images/pattern-6-light.png')
 }
 
 .pat-2:hover {
-  background-image: url('../images/pattern-2-dark.png')
+  background-image: url('../images/pattern-6-dark.png')
 }
 
 .button-link {
