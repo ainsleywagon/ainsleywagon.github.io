@@ -138,6 +138,10 @@ p {
   text-align: right;
 }
 
+.beige {
+  background-color: antiquewhite;
+}
+
 .small-project {
   height: 100%;
   text-align: center;
@@ -157,11 +161,11 @@ p {
 }
 
 .pat-1 {
-  background-image: url('../images/pattern-2-light.png')
+  background-image: url('../images/pattern-2.1-light.png')
 }
 
 .pat-1:hover {
-  background-image: url('../images/pattern-2-dark.png')
+  background-image: url('../images/pattern-2.1-dark.png')
 }
 
 .pat-2 {
