@@ -125,7 +125,7 @@ p {
 }
 
 .big-project-image {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .big-project-descr-left {
@@ -189,7 +189,7 @@ p {
   text-decoration: none;
   color: white;
   background-color: black;
-  transition: background .5s ease-in-out;
+  -webkit-transition: background .5s, color .5s;
 }
 
 .small-project-title {
