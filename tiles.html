@@ -8,13 +8,20 @@
   <meta name="author" content="">
   <link rel="icon" href="../../favicon.ico">
 
-  <title>Ainsley Wagoner</title>
+  <title>Tiles</title>
 
   <!-- Bootstrap core CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Bootstrap Javascript -->
+  <link href="js/bootstrap.min.js" rel="stylesheet">
+
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -41,7 +48,7 @@
           </div>
         </div>
 
-        <a class="navbar-brand" href="#"><img src="images/logo_lips.png" alt="Home"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/logo_lips.png" alt="Home"></a>
       </div>
       <div id="name">
         <h1 id="name">AINSLEY WAGONER</h1>
@@ -56,62 +63,45 @@
   </nav>
   <br><br>
   <!-- page content -->
-  <div class="wrapper">
-    <div class="row projects left">
-      <div class="col-md-8 big-project">
-        <div class="col-md-6 big-project-image">
-          <img src="images/cover-primerpeso.png" alt="PrimerPeso Monitor" style="width:90%">
-        </div>
-        <div class="col-md-6 big-project-descr-left">
-          <h1 class="project-title">UX & Interaction Design @ Code for America</h1>
-          <h4>Connecting small businesses in Puerto Rico with incentives for economic growth.</h4>
-          <h5 class="tags">Code for America, Puerto Rico, UX Design, UI Design, Visual Design</h5>
-          <a class="button-link" href="primerpeso.html">view project</a>
-        </div>
+  <div class="wrapper project-page">
+    <div class="row project-nav">
+      <a class="button-link back" href="ilovepr.html">back</a>
+      <a class="button-link next" href="index.html">next</a>
+    </div>
+    <div class="row project-header">
+      <div class="col-md-7">
+        <img src="images/tiles-2.png" alt="PrimerPeso Monitor">
       </div>
-      <div class="col-md-4 small-project pattern pat-1">
-        <a class="button-link small-project-title" href="freshpatterns.html">Fresh Patterns</a>
+      <div class="col-md-5 project-description">
+        <h1>Tiles</h1>
+        <h4 class="project-descr-subheader">A pretty picture-making game that everyone wins!</h4>
+        <p>This is a project I co-developed with Imanol Aranzadi - just for the fun
+        of it. Inspired by children's wooden blocks that have nice pictures on every
+        side, that no matter how you arrange them make up a nice pattern.</p>
       </div>
     </div>
 
-    <div class="row projects">
-      <div class="col-md-4 small-project pattern pat-2">
-        <a class="button-link small-project-title" href="colorchart.html">CSS Color Chart</a>
-      </div>
-      <div class="col-md-8 big-project beige">
-        <div class="col-md-6 big-project-descr-right">
-          <h1 class="project-title">UI & Visual Design for CivChoice</h1>
-          <h4>Creating products for non-profits to connect with their donors.</h4>
-          <h5 class="tags">UI Design, Visual Design, Illustration, Non-Profit Products</h5>
-          <a class="button-link" href="civchoice.html">view project</a>
-        </div>
-        <div class="col-md-6 big-project-image">
-          <img src="images/civchoice-1.png" alt="CivChoice Layout" style="width: 400px">
-        </div>
-      </div>
+    <div class="row col-md-12">
+      <img src="images/tiles-1.png">
+      <p class="project-text">I developed the visual design, drawing the tiles
+        in Illustrator which looked good in any arrangement - random or planned.
+        As I played with it, I realized the visual similarity to quilts and folk art,
+        which reveals the strong Appalachian design influences from my Kentucky roots.
+        <br>
+        <br>
+        <img src="images/tiles-3.png" style="float: left">
+        It's interesting to me how simple designs reveal complex influences.
+        Go check it out and edit the title for your creation!
+      </p>
     </div>
 
-    <div class="row projects left">
-      <div class="col-md-8 big-project">
-        <div class="col-md-6 big-project-image">
-          <img src="images/ilovepr.png" alt="PrimerPeso Monitor" style="width:90%">
-        </div>
-        <div class="col-md-6 big-project-descr-left">
-          <h1 class="project-title">Front-end Design for ILovePuertoRico.org</h1>
-          <h4>Collecting love letters to Puerto Ricans' homeland.</h4>
-          <h5 class="tags">Front-end, Visual Design, Interaction</h5>
-          <a class="button-link" href="ilovepr.html">view project</a>
-        </div>
-      </div>
-      <div class="col-md-4 small-project pattern pat-3">
-        <a class="button-link small-project-title" href="tiles.html">Tiles</a>
-      </div>
-    </div>
-
-    <div class="row resume">
-      <p><a class="btn button" href="resume.html">Résumé</a></p>
+    <div class="row project-nav last">
+      <a class="button-link back" href="ilovepr.html">back</a>
+      <a class="button-link next" href="index.html">next</a>
     </div>
   </div>
+
+
 
   <footer class="footer">
     <div class="container">
@@ -133,6 +123,8 @@
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
