@@ -309,7 +309,7 @@ img.about {
 }
 /* Resume */
 
-#resume {
+/* #resume {
   background-color: lavender;
   height: auto;
   font-size: 19px;
@@ -321,7 +321,7 @@ img.about {
 #resume .inner {
   max-width: 700px;
   padding: 15px;
-}
+} */
 
 .section-tagline {
   letter-spacing: 0.3em;
@@ -504,3 +504,88 @@ h2 {
   text-align: center;
   margin-bottom: 2px;
 }
+
+
+/* Resume animated text */
+
+/* Main styles */
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+  .text {
+    fill: none;
+    stroke-width: 6;
+    stroke-linejoin: round;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 6s infinite linear;
+    animation: stroke 6s infinite linear;
+  }
+
+  .text:nth-child(5n + 1) {
+    stroke: #FA8072;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s;
+  }
+  .text:nth-child(5n + 2) {
+    stroke: #FDAA91;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s;
+  }
+
+  .text:nth-child(5n + 3) {
+    stroke: #959EDB;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s;
+  }
+
+  .text:nth-child(5n + 4) {
+    stroke: yellow;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s;
+  }
+
+  .text:nth-child(5n + 5) {
+    stroke: white;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s;
+  }
+
+  @-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+  }
+
+    @keyframes stroke {
+    100% {
+      stroke-dashoffset: -400;
+    }
+  }
+
+  .resume {
+    background: Lavender;
+    height: 400px;
+    width: 100%;
+    background-size: .2em 100%;
+    font: 24.5em/1 Open Sans, Impact;
+    text-transform: uppercase;
+    margin: 0;
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .resume > a {
+    text-decoration: none;
+  }
+
+  .resume:hover {
+    background: #474D81;
+  }
+
+
+  svg {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+  }
