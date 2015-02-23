@@ -239,6 +239,7 @@ p {
 .pattern {
   transition: background-image .5s ease-in-out;
   -webkit-transition: background-image .5s ease-in-out;
+  -moz-transition: background-image .5s ease-in-out;
 }
 
 .pat-1 {
@@ -315,6 +316,9 @@ p {
 
 .social-media li a {
   color: Gray;
+  transition: color .5s;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
 }
 
 .social-media li a:hover {
