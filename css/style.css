@@ -228,13 +228,16 @@ p {
 
 .social-media li {
   list-style: none;
-  color: MediumAquaMarine;
   display: inline;
   padding: 10px;
 }
 
-.social-media li:hover {
-  color: DarkCyan;
+.social-media li a {
+  color: Gray;
+}
+
+.social-media li a:hover {
+  color: deepskyblue;
 }
 
 /* PROJECT PAGE TEMPLATE */
