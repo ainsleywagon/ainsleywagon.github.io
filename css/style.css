@@ -82,6 +82,10 @@ body > .container {
   text-align: center;
 }
 
+.fa-heart {
+  color: tomato;
+}
+
 code {
   font-size: 80%;
 }
