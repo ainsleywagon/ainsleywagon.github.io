@@ -158,14 +158,15 @@ p {
 
 .pattern {
   transition: background-image .5s ease-in-out;
+  -webkit-transition: background-image .5s ease-in-out;
 }
 
 .pat-1 {
-  background-image: url('../images/pattern-2.1-light.png')
+  background-image: url('../images/pattern-8-light.png')
 }
 
 .pat-1:hover {
-  background-image: url('../images/pattern-2.1-dark.png')
+  background-image: url('../images/pattern-8-dark.png')
 }
 
 .pat-2 {
