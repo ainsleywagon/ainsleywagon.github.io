@@ -96,6 +96,82 @@ code {
   padding-top: 60px;
 }
 
+.message {
+  background:gray;
+  color:#FFF;
+  position: absolute;
+  top: -280px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 1.94);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.message h1 {
+  color: black;
+}
+
+#toggle {
+  position:relative;
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle + label {
+  position:absolute;
+  right: 0px;
+  cursor:pointer;
+  padding:5px;
+  background: yellow;
+  width: 30px;
+  border-radius: 100px;
+  color: gray;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:30px 30px;
+  transition:all 500ms ease;
+}
+#toggle + label:after {
+  content:"+"
+}
+
+#toggle:checked ~ .message {
+  top: 0;
+}
+
+#toggle:checked + label {
+  background: yellow;
+  z-index: 9999;
+}
+
+#toggle:checked + label:after {
+  content:"+"
+}
+
+.message > ul {
+  margin-top: 60px;
+  list-style: none;
+}
+
+.message > ul > li {
+  width: 100%;
+  background-color: white;
+  margin-left: -20px;
+  padding: 1px 0px 10px 0px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.message > ul > li > a:hover {
+  color: yellow;
+}
 
 /*FRONT PAGE PROJECTS*/
 h1, h2, h3, h4, h5 {
@@ -238,7 +314,89 @@ p {
 }
 
 .social-media li a:hover {
-  color: deepskyblue;
+  color: gold;
+}
+
+/* Resume animated text */
+
+/* Main styles */
+.text {
+  fill: none;
+  stroke-width: 6;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
+}
+
+.text:nth-child(5n + 1) {
+  stroke: #FA8072;
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+.text:nth-child(5n + 2) {
+  stroke: #FDAA91;
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
+}
+
+.text:nth-child(5n + 3) {
+  stroke: #959EDB;
+  -webkit-animation-delay: -3.6s;
+  animation-delay: -3.6s;
+}
+
+.text:nth-child(5n + 4) {
+  stroke: yellow;
+  -webkit-animation-delay: -4.8s;
+  animation-delay: -4.8s;
+}
+
+.text:nth-child(5n + 5) {
+  stroke: white;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+.res-animate {
+  background: gray;
+  text-align: center;
+  height: 400px;
+  width: 100%;
+  background-size: .2em 100%;
+  font: 24.5em/1 Karla, Impact;
+  text-transform: uppercase;
+  margin: 0;
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.res-animate > a {
+  text-decoration: none;
+}
+
+.res-animate:hover {
+  background: gold;
+}
+
+svg {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
 }
 
 /* PROJECT PAGE TEMPLATE */
@@ -321,7 +479,7 @@ img.about {
 }
 /* Resume */
 
-/* #resume {
+ #resume {
   background-color: lavender;
   height: auto;
   font-size: 19px;
@@ -333,7 +491,7 @@ img.about {
 #resume .inner {
   max-width: 700px;
   padding: 15px;
-} */
+}
 
 .section-tagline {
   letter-spacing: 0.3em;
@@ -426,8 +584,6 @@ img.icon:hover {
   }
 }
 
-
-
 h1 {
   font-size:30px;
   font-weight:bold;
@@ -441,165 +597,3 @@ h2 {
   color:#888;
   padding:5px 0;
 }
-
-.message {
-  background:gray;
-  color:#FFF;
-  position: absolute;
-  top: -280px;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 1.94);
-  overflow: hidden;
-  box-sizing: border-box;
-}
-
-.message h1 {
-  color: black;
-}
-
-#toggle {
-  position:relative;
-  appearance:none;
-  cursor:pointer;
-  left:-100%;
-  top:-100%;
-}
-
-#toggle + label {
-  position:absolute;
-  right: 0px;
-  cursor:pointer;
-  padding:5px;
-  background: yellow;
-  width: 30px;
-  border-radius: 100px;
-  color: gray;
-  line-height:20px;
-  font-size:12px;
-  text-align:center;
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  margin:30px 30px;
-  transition:all 500ms ease;
-}
-#toggle + label:after {
-  content:"+"
-}
-
-#toggle:checked ~ .message {
-  top: 0;
-}
-
-#toggle:checked + label {
-  background: yellow;
-  z-index: 9999;
-}
-
-#toggle:checked + label:after {
-  content:"+"
-}
-
-.message > ul {
-  margin-top: 60px;
-  list-style: none;
-}
-
-.message > ul > li {
-  width: 100%;
-  background-color: white;
-  margin-left: -20px;
-  padding: 1px 0px 10px 0px;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.message > ul > li > a:hover {
-  color: yellow;
-}
-
-
-/* Resume animated text */
-
-/* Main styles */
-  @import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
-
-  .text {
-    fill: none;
-    stroke-width: 6;
-    stroke-linejoin: round;
-    stroke-dasharray: 70 330;
-    stroke-dashoffset: 0;
-    -webkit-animation: stroke 6s infinite linear;
-    animation: stroke 6s infinite linear;
-  }
-
-  .text:nth-child(5n + 1) {
-    stroke: #FA8072;
-    -webkit-animation-delay: -1.2s;
-    animation-delay: -1.2s;
-  }
-  .text:nth-child(5n + 2) {
-    stroke: #FDAA91;
-    -webkit-animation-delay: -2.4s;
-    animation-delay: -2.4s;
-  }
-
-  .text:nth-child(5n + 3) {
-    stroke: #959EDB;
-    -webkit-animation-delay: -3.6s;
-    animation-delay: -3.6s;
-  }
-
-  .text:nth-child(5n + 4) {
-    stroke: yellow;
-    -webkit-animation-delay: -4.8s;
-    animation-delay: -4.8s;
-  }
-
-  .text:nth-child(5n + 5) {
-    stroke: white;
-    -webkit-animation-delay: -6s;
-    animation-delay: -6s;
-  }
-
-  @-webkit-keyframes stroke {
-  100% {
-    stroke-dashoffset: -400;
-  }
-  }
-
-    @keyframes stroke {
-    100% {
-      stroke-dashoffset: -400;
-    }
-  }
-
-  .resume {
-    background: Lavender;
-    height: 400px;
-    width: 100%;
-    background-size: .2em 100%;
-    font: 24.5em/1 Open Sans, Impact;
-    text-transform: uppercase;
-    margin: 0;
-    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
-    transition:width 2s, height 2s, background-color 2s, transform 2s;
-  }
-
-  .resume > a {
-    text-decoration: none;
-  }
-
-  .resume:hover {
-    background: #474D81;
-  }
-
-
-  svg {
-    position: relative;
-    margin: 0 auto;
-    width: 400px;
-    height: 300px;
-  }
