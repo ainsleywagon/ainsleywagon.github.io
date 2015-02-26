@@ -586,12 +586,9 @@ img.icon:hover {
   .button-link.small-project-title {
     margin: 100px;
   }
-  .resume {
-    height: auto;
-  }
-  .resume .button {
-    margin: 100px;
-  }
+  .res-animate{
+    height: 300px;
+    }
 }
 
 @media screen and (max-width: 767px) {
