@@ -209,8 +209,9 @@ p {
 }
 
 #cover {
+  width: 400px;
   max-width: 100%;
-  max-height: 90%;
+  max-height: 100%;
 }
 
 .big-project-descr-left {
@@ -223,7 +224,7 @@ p {
   text-align: right;
 }
 
-.beige {
+.color {
   background-color: gold;
 }
 
@@ -575,6 +576,12 @@ img.icon:hover {
   }
   .big-project-descr-left, .big-project-descr-right {
     text-align: center;
+  }
+  .color {
+    padding-top: 10px;
+  }
+  .big-project-descr-right > .button-link {
+    margin-bottom: 0px;
   }
   .button-link.small-project-title {
     margin: 100px;
