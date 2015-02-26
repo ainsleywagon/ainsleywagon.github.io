@@ -130,7 +130,7 @@ code {
   right: 0px;
   cursor:pointer;
   padding:5px;
-  background: yellow;
+  background: gold;
   width: 30px;
   border-radius: 100px;
   color: gray;
@@ -151,7 +151,7 @@ code {
 }
 
 #toggle:checked + label {
-  background: yellow;
+  background: tomato;
   z-index: 9999;
 }
 
@@ -598,6 +598,9 @@ img.icon:hover {
   .navbar-brand img {
     margin-top: -15px;
     margin-left: 10px;
+  }
+  .message {
+    top: -296px;
   }
 }
 
