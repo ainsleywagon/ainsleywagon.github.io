@@ -240,6 +240,7 @@ p {
 
 .tags {
   color: gray;
+  display: none;
 }
 
 .pattern {
