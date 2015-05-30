@@ -18,8 +18,8 @@
 .wrapper {
   margin-top: 44px;
 }
-/* Sticky footer styles
--------------------------------------------------- */
+
+/* Sticky footer styles */
 html {
   position: relative;
   min-height: 100%;
@@ -178,6 +178,7 @@ code {
 }
 
 /*FRONT PAGE PROJECTS*/
+
 h1, h2, h3, h4, h5 {
   line-height: 1.4;
 }
@@ -195,6 +196,15 @@ p {
   width: 100%;
 }
 
+.cover-link {
+  color: black;
+}
+
+.cover-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .project-title {
   line-height: 1.1;
 }
@@ -208,20 +218,29 @@ p {
   margin-top: 20px;
 }
 
-#cover {
-  width: 400px;
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .big-project-descr-left {
-  margin-top: 50px;
+  height: 100%;
+  margin-top: 120px;
   text-align: left;
 }
 
 .big-project-descr-right {
   margin-top: 50px;
   text-align: right;
+}
+
+.project-title {
+  line-height: 1.1;
+}
+
+.project-link {
+  display: block;
+}
+
+#cover {
+  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .color {
@@ -240,7 +259,6 @@ p {
 
 .tags {
   color: gray;
-  display: none;
 }
 
 .pattern {
@@ -271,6 +289,14 @@ p {
 
 .pat-3:hover {
   background-image: url('../images/pattern-7-dark.png')
+}
+
+.pat-4 {
+  background-image: url('../images/pattern-coffee.png')
+}
+
+.pat-4:hover {
+  background-image: url('../images/pattern-coffee-dark.png')
 }
 
 .button-link {
@@ -441,7 +467,7 @@ svg {
 }
 
 .project-description {
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 .project-text {
@@ -578,6 +604,7 @@ img.icon:hover {
   }
   .big-project-descr-left, .big-project-descr-right {
     text-align: center;
+    margin-bottom: 50px;
   }
   .color {
     padding-top: 10px;
