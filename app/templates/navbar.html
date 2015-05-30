@@ -1,0 +1,28 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="visible-xs">
+          <input type="checkbox" name="toggle" id="toggle" />
+          <label for="toggle"></label>
+
+          <div class="message">
+            <ul>
+              <li><a href="/about"><h1>About</h1></a></li>
+              <li><a href="/resume"><h1>Resume</h1></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <a class="navbar-brand" href="/index"><img src="{{ url_for('static', filename="images/logo_lips.png") }}"/></a>
+      </div>
+      <div id="name">
+        <h1 id="name">AINSLEY WAGONER</h1>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse pull-right">
+        <ul class="nav navbar-nav">
+          <li><a href="/about">About</a></li>
+          <li><a href="/resume">Résumé</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
