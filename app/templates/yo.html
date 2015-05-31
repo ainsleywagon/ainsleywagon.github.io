@@ -4,12 +4,12 @@
 
   <div class="wrapper project-page">
       <div class="row project-nav">
-        <a class="button-link back" href="ilovepr.html">back</a>
-        <a class="button-link next" href="freshpatterns.html">next</a>
+        <a class="button-link back" href="ilovepr">back</a>
+        <a class="button-link next" href="freshpatterns">next</a>
       </div>
       <div class="row project-header">
         <div class="col-md-5">
-          <img src="images/Yo-welcome-screen.gif" alt="Yo Welcome Screen" styl>
+          <img src="{{url_for('static', filename='images/Yo-welcome-screen.gif')}}" alt="Yo Welcome Screen" styl>
         </div>
         <div class="col-md-6 project-description">
           <h1>Yo</h1>
@@ -23,8 +23,8 @@
         </div>
       </div>
 
-      <img src="images/yo-designsprint.png">
-      <img src="images/yo-onboarding-sketches.png">
+      <img src="{{url_for('static', filename='images/yo-designsprint.png')}}" alt="Design Sprint Sketches">
+      <img src="{{url_for('static', filename='images/yo-onboarding-sketches.png')}}" alt="Onboarding Sketches">
       <div class="row col-md-12">
         <p class="project-text">As we looked at the analytics for Yo, we found that
           people who were still using it after a week were pretty likely to be steady users.
@@ -44,8 +44,8 @@
 
       <div class="row col-md-12">
         <p class="project-text">
-          <img src="images/yo-reassurance-sketches.png">
-          <img src="images/yo-reassurance-prototypes.png">
+          <img src="{{url_for('static', filename='images/yo-reassurance-sketches.png')}}" alt="Reassurance Sketches">
+          <img src="{{url_for('static', filename='images/yo-reassurance-prototypes.png')}}" alt="Reassurance Prototypes">
           <br>
           <br>
           Overall our goal with satisfying each of these requirements was to have
@@ -64,7 +64,7 @@
           message was successfully sent and opened.
           <br>
           <br>
-          <img src="images/yo-permissions.png">
+          <img src="{{url_for('static', filename='images/yo-permissions.png')}}" alt="Permissions">
           <br>
           <br>
           From there it was really about baking in the needed permissions into the
@@ -75,20 +75,20 @@
           your contacts.
           <br>
           <br>
-          <img src="images/yo-addfriends.png">
+          <img src="{{url_for('static', filename='images/yo-addfriends.png')}}" alt="Add Friends">
           <br>
           <br>
           All in all, I wanted to create a seamless experience that interrupted users
           as little as possible, while still showing them how to use the app and allowing
           us to get the permissions we needed.
-          <img src="images/yo-onboarding-redesigned.png">
+          <img src="{{url_for('static', filename='images/yo-onboarding-redesigned.png')}}" alt="Onboarding Redesigned">
         </p>
       </div>
 
       <div class="row project-nav last">
-        <a class="button-link back" href="ilovepr.html">back</a>
-        <a class="button-link next" href="freshpatterns.html">next</a>
+        <a class="button-link back" href="ilovepr">back</a>
+        <a class="button-link next" href="freshpatterns">next</a>
       </div>
     </div>
-    
+
   {% endblock %}
