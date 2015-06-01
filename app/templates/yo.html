@@ -9,7 +9,7 @@
       </div>
       <div class="row project-header">
         <div class="col-md-5">
-          <img src="{{url_for('static', filename='images/Yo-welcome-screen.gif')}}" alt="Yo Welcome Screen" styl>
+          <img src="{{url_for('static', filename='images/Yo-welcome-screen.gif')}}" alt="Yo Welcome Screen" style="max-width: 200px;">
         </div>
         <div class="col-md-6 project-description">
           <h1>Yo</h1>
@@ -23,38 +23,31 @@
         </div>
       </div>
 
-      <img src="{{url_for('static', filename='images/yo-designsprint.png')}}" alt="Design Sprint Sketches">
-      <img src="{{url_for('static', filename='images/yo-onboarding-sketches.png')}}" alt="Onboarding Sketches">
-      <div class="row col-md-12">
-        <p class="project-text">As we looked at the analytics for Yo, we found that
-          people who were still using it after a week were pretty likely to be steady users.
-          But the ones we were concerned about were those that downloaded it and dropped off.
-          So we knew that we wanted to focus on <b>new user retention</b> and address this
-          through a redesign of the onboarding process.
-          <br>
-          <br>
-          We wanted to address four goals with onboarding:
-          <br>
-          <br>1. Telling new users about possible use cases for Yo.
-          <br>2. Reassuring them they were doing it right.
-          <br>3. Don't let permissions become an obstacle to using the app.
-          <br>4. Get people adding friends!
-        </p>
-      </div>
-
-      <div class="row col-md-12">
-        <p class="project-text">
+      <div class="inner-md-content">
+        <img src="{{url_for('static', filename='images/yo-designsprint.png')}}" alt="Design Sprint Sketches">
+        <img src="{{url_for('static', filename='images/yo-onboarding-sketches.png')}}" alt="Onboarding Sketches">
+          <h1 class="pull-quote">A focus on new-user retention</h2>
+          <p class="project-text">As we looked at the analytics for Yo, we found that
+            people who were still using it after a week were pretty likely to be steady users.
+            But the ones we were concerned about were those that downloaded it and dropped off.
+            So we knew that we wanted to focus on <b>new user retention</b> and address this
+            through a redesign of the onboarding process.
+            <h2 class="pull-quote">We wanted to address four goals with onboarding:</h2>
+            <br>1. Telling new users about possible use cases for Yo.
+            <br>2. Reassuring them they were doing it right.
+            <br>3. Don't let permissions become an obstacle to using the app.
+            <br>4. Get people adding friends!
+            <br>
+            <br>
           <img src="{{url_for('static', filename='images/yo-reassurance-sketches.png')}}" alt="Reassurance Sketches">
           <img src="{{url_for('static', filename='images/yo-reassurance-prototypes.png')}}" alt="Reassurance Prototypes">
-          <br>
-          <br>
+          <h1 class="pull-quote">Minimize Friction</h2>
           Overall our goal with satisfying each of these requirements was to have
           as little onboarding as possible. We knew that it was crucial to get people
           playing around with the app quickly, while giving them just the right
           amount of information to know how to use the app and be able to access
           all its features.
-          <br>
-          <br>
+          <h2 class="pull-quote">"I don't know if I'm doing this right"</h2>
           One thing I heard from users a lot was "I don't know if I'm doing this right."
           So it was important to the team to let them know more about this abstract
           concept called "Yo". I had several ideas about how to accomplish this -
@@ -65,8 +58,7 @@
           <br>
           <br>
           <img src="{{url_for('static', filename='images/yo-permissions.png')}}" alt="Permissions">
-          <br>
-          <br>
+          <h1 class="pull-quote">Creating a seamless experience</h2>
           From there it was really about baking in the needed permissions into the
           experience of the app and making sure people were adding friends.
           We made an engineering decision to allow users to Yo any of their contacts,
@@ -81,9 +73,11 @@
           All in all, I wanted to create a seamless experience that interrupted users
           as little as possible, while still showing them how to use the app and allowing
           us to get the permissions we needed.
-          <img src="{{url_for('static', filename='images/yo-onboarding-redesigned.png')}}" alt="Onboarding Redesigned">
         </p>
+        <img src="{{url_for('static', filename='images/yo-onboarding-flow.png')}}" alt="Onboarding Redesigned">
+        <img src="{{url_for('static', filename='images/yo-addfriends-final.png')}}" alt="Onboarding Redesigned">
       </div>
+
 
       <div class="row project-nav last">
         <a class="button-link back" href="ilovepr">back</a>
