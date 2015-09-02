@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="wrapper project-page">
+  <div class="row project-nav">
+    <a class="button-link back" href="tiles">back</a>
+    <a class="button-link next" href="yo">next</a>
+  </div>
+  <div class="row project-header">
+    <div class="col-md-7">
+      <img src="{{url_for('static', filename='images/ilovepr.png')}}" alt="PrimerPeso Monitor" style="max-width: 516px;">
+    </div>
+    <div class="col-md-5 project-description">
+      <h1><a href="ilovepuertorico.org">ILovePuertoRico.org</a></h1>
+      <h4 class="project-descr-subheader">Collecting Love Letters to La Isla de Encanta</h4>
+      <p>While in residency for Code for America in San Juan, Puerto Rico, I had
+      the privilege to meet and talk to a lot of Puerto Rican citizens about the
+      challenges facing the island. Outside of our project's focus area, one major
+      concern was the large amounts of Puerto Ricans leaving the island - particularly
+      young people.</p>
+    </div>
+  </div>
+
+  <div class="inner-md-content">
+    <p class="project-text">With ILovePuertoRico.org, we wanted to build a platform
+      that collected all the little reasons why its citizens loved the island. We
+      wanted a visual wall of love notes detailing why people stayed in Puerto Rico.
+      People loved the premise and the messages we collected were amazing. From
+      family to its natural beauty, to the work ethic of the people - the sentiments
+      we uncovered were a powerful testament to the spirit of the island.
+      <br>
+      <br>
+      I worked with my developer teammate to spin up this platform, which has since
+      been forked for many other feel-good purposes (birthday greetings are a
+      particularly popular use.) This was my first stab at reading and writing in Jade,
+      and I had a lot of fun building something that was an easy and straightforward
+      way for people to communicate positive feelings about their country.
+    </p>
+    <img src="{{url_for('static', filename='images/ilovepr-1.gif')}}" style="float: left; max-width: 516px;">
+    <p class="project-text">You can read much more detailed documentation about
+      the design and development of this app <a href="http://coquicoders.org/ilovepuertorico-org-technical-overview/"
+      >here</a> at our Code for America team blog.
+    </p>
+  </div>
+
+  <div class="row project-nav last">
+    <a class="button-link back" href="tiles">back</a>
+    <a class="button-link next" href="yo">next</a>
+  </div>
+</div>
+
+
+{% endblock %}

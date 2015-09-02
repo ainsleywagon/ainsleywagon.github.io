@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <div class="wrapper project-page">
+    <div class="row project-nav">
+      <a class="button-link back" href="yo">back</a>
+      <a class="button-link next" href="makemecoffee">next</a>
+    </div>
+    <div class="row project-header">
+      <div class="col-md-7">
+        <img src="{{url_for('static', filename='images/freshpatterns.gif')}}" alt="Fresh Patterns GIF" style="max-width: 560px;">
+      </div>
+      <div class="col-md-5 project-description">
+        <h1>Fresh Patterns</h1>
+        <h4 class="project-descr-subheader">By day I work on products that address
+          real-world challenges. By night, <a href="http://freshwash.tumblr.com/">
+          Fresh Patterns</a> is my visual outpouring whose sole purpose is to delight.</h4>
+        <p>Fresh Patterns grew out of FreshWash- my long-standing passion project where I allowed myself to
+        generate without parameters.</p>
+      </div>
+    </div>
+
+    <div class="inner-md-content">
+      <img src="{{url_for('static', filename='images/freshwash.png')}}" alt="early visual experiments">
+      <p class="project-text">
+        It started as a way to have use scraps of
+         projects that I was doing. Little experiments that went nowhere and meant nothing.
+         But they looked cool! I called these the ‘Visual Experimental Iterations Series.’
+        <br>
+        <br>
+        Over time I started making patterns from some of these
+        visual experiments and the patterns were what I really enjoyed doing. The
+        blog has gained a following. I have over 2,300 followers
+        and the most popular image has over 8,000 shares.
+        <br>
+        <br>
+        The patterns are what I’m really proud of. When I see great patterns in the world,
+        especially on textiles – I'm transfixed. I think that everyone
+        deserves good design, and so many of the objects we interact with have sub-par
+        or boring patterns on them.
+      </p>
+
+      <img src="{{url_for('static', filename='images/freshwash-4.png')}}" alt="carnie food pattern">
+      <img src="{{url_for('static', filename='images/freshwash-6.png')}}" alt="pattern sketch development">
+      <p class="project-text">To make the patterns I either start from a sketch that
+        I digitize or begin straight in Illustrator. I typically go through several
+        iterations of each idea before I hit on something I really like.
+        <br>
+        <br>
+        Recently I have started exploring <a href="http://printallover.me/collections/freshwash">applying these patterns to textiles</a>. I’m
+        really excited to see how they transition from the digital world to the physical.
+        <br>
+        <br>
+        <img src="{{url_for('static', filename='images/freshwash-7.png')}}" alt="applying patterns to things">
+        <img src="{{url_for('static', filename='images/freshwash-8.png')}}" alt="a bunch of pattern swatches">
+        <br>
+        <br>
+        I like to give myself a place to do something I love doing without a deadline
+        but with an outlet. I like to make them quickly most of the time, to generate
+        graphics, try things, move on, try other things. Sometimes I let myself obsess
+        over the details and make something really intricate. That feels good too.
+        <br>
+        <br>
+        Having this side project sharpens my visual design skills, serves as a way
+        for me to process all the visuals I'm absorbing as I go through my day, keeps
+        me looking for patterns out in the world that I want to riff on, and has made
+        me extremely good at the pattern-making tool in Illustrator.
+      </p>
+    </div>
+
+    <div class="row project-nav last">
+      <a class="button-link back" href="yo">back</a>
+      <a class="button-link next" href="makemecoffee">next</a>
+    </div>
+  </div>
+
+  {% endblock %}

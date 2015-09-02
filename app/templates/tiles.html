@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="wrapper project-page">
+  <div class="row project-nav">
+    <a class="button-link back" href="colorchart">back</a>
+    <a class="button-link next" href="ilovepr">next</a>
+  </div>
+  <div class="row project-header">
+    <div class="col-md-7">
+      <img src="{{url_for('static', filename='images/tiles-2.png')}}" alt="PrimerPeso Monitor" style="max-width: 400px;">
+    </div>
+    <div class="col-md-5 project-description">
+      <h1><a href="http://inaki.github.io/tiles/">Tiles</a></h1>
+      <h4 class="project-descr-subheader">A pretty picture-making game that everyone wins!</h4>
+      <p>This is a <a href="http://inaki.github.io/tiles/">project</a> I co-developed with <a href="https://twitter.com/iaranzadi">Imanol Aranzadi</a> - just for the fun
+      of it. Inspired by children's wooden blocks that have nice pictures on every
+      side, that no matter how you arrange them make up a nice pattern.</p>
+    </div>
+  </div>
+
+  <div class="inner-md-content">
+    <img src="{{url_for('static', filename='images/tiles-1.png')}}">
+      <br>
+      <br>
+    <p class="project-text">I developed the visual design, drawing the tiles
+      in Illustrator which looked good in any arrangement - random or planned.
+      As I played with it, I realized the visual similarity to quilts and folk art,
+      which reveals the strong Appalachian design influences from my Kentucky roots.
+      <br>
+      <br>
+      <img src="{{url_for('static', filename='images/tiles-3.png')}}" style="float: left">
+      It's interesting to me how simple designs reveal complex influences.
+      Go check it out and edit the title for your creation!
+    </p>
+  </div>
+
+  <div class="row project-nav last">
+    <a class="button-link back" href="colorchart">back</a>
+    <a class="button-link next" href="ilovepr">next</a>
+  </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="wrapper project-page">
+  <div class="row project-nav">
+    <a class="button-link back" href="primerpeso">back</a>
+    <a class="button-link next" href="colorchart">next</a>
+  </div>
+  <div class="row project-header">
+    <div class="col-md-7">
+      <img src="{{url_for('static', filename='images/civchoice-2.png')}}" alt="CivChoice" style="max-width: 500px;">
+    </div>
+    <div class="col-md-5 project-description">
+      <h1>CivChoice</h1>
+      <h4 class="project-descr-subheader">Products for nonprofits to connect
+        with their donors.</h4>
+      <p>Working with <a href="http://cirrusmio.com/">CirrusMio</a>, I learned my
+        first lessons about scoping a product.
+        We formed as a start-up to build a social networking platform
+        for non-profits, volunteers, and donors. We built and launched and
+        things did not go like we had hoped.
+      </p>
+    </div>
+  </div>
+  <div class="inner-md-content">
+    <h2 class="pull-quote">Building grassroots products</h2>
+    <p class="project-text">We decided to we would focus on building products
+      that addressed the donor-volunteer-nonprofit ecosystem one piece at a time,
+      and to work with organizations in our community of Lexington, Kentucky.
+      With this shift, we started building things we believed in and could see
+      the immediate impact of. The difference was huge.
+      <br>
+      <br>
+      Among nonprofits, a large source of donations comes from workplace giving
+      campaigns. The leading platform for workplace giving campaigns is currently
+      United Way. But United Way does not facilitate donations to every
+      501(c)(3) organization, and this excludes a lot of nonprofits, particularly
+      grassroots organizations.
+    </p>
+    <img src="{{url_for('static', filename='images/civchoice.png')}}">
+      <br>
+      <br>
+    <p class="project-text">CivChoice facilitates workplace-giving campaigns to
+      any IRS-registered not-for-profit organization. It does this by using a
+      digital currency in exchange for any dollar amount that is then redistributed
+      to the non-profit of the user’s choice.
+      <br>
+      <br>
+      I developed the branding and identity of CivChoice in order to communicate
+      its goals of inclusive giving, trustworthiness, and accessibility. I also
+      worked on the user interaction flows and user experience so that employers
+      and individual employees could intuitively navigate the system.
+      <br>
+      <br>
+      <img src="{{url_for('static', filename='images/civchoice-8.png')}}">
+      <br>
+      <br>
+      This was my first project working with a front-end team, and my teammates
+      at CirrusMio were incredible mentors as I worked with Ruby code and wrote CSS.
+      I created the user interface art assets and worked on the implementation
+      of the design in the code.
+      <br>
+      <br>
+      <img src="{{url_for('static', filename='images/civchoice-9.png')}}">
+      <br>
+      <br>
+    </p>
+  </div>
+
+  <div class="row project-nav last">
+    <a class="button-link back" href="primerpeso">back</a>
+    <a class="button-link next" href="colorchart">next</a>
+  </div>
+</div>
+
+
+{% endblock %}
