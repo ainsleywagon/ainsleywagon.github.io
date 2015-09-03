@@ -1,0 +1,11 @@
+# Site settings
+title: Imanol Aranzadi
+email: your-email@domain.com
+description: > # this is a simple jekyll site with the parts to bootstrap a portfolio site.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: iaranzadi
+github_username:  inaki
+
+# Build settings
+markdown: kramdown
