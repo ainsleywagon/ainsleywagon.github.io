@@ -1,20 +1,30 @@
-<header>
+<!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="visible-xs">
+          <input type="checkbox" name="toggle" id="toggle" />
+          <label for="toggle"></label>
 
-  <div class="container">
+          <div class="message">
+            <ul>
+              <li><a href="about.html"><h1>About</h1></a></li>
+              <li><a href="resume.html"><h1>Résumé</h1></a></li>
+            </ul>
+          </div>
+        </div>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class="navbar-brand" href="/"><img src="images/logo_lips.png" alt="Home"></a>
       </div>
-    </nav>
-
-  </div>
-
-</header>
+      <div id="name">
+        <h1 id="name">AINSLEY WAGONER</h1>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse pull-right">
+        <ul class="nav navbar-nav">
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Résumé</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+  <br><br>
