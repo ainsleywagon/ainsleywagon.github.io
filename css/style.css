@@ -498,6 +498,16 @@ svg {
   float: right;
 }
 
+.inner-md-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.pull-quote {
+  padding: 0px;
+}
+
 /* About */
 img.about {
   height: 200px;
@@ -588,6 +598,7 @@ img.icon:hover {
   border-radius: 8px;
 }
 
+
 /* Media Queries */
 @media screen and (max-width: 991px) {
   .footer {
@@ -605,6 +616,7 @@ img.icon:hover {
   .big-project-descr-left, .big-project-descr-right {
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 0px;
   }
   .color {
     padding-top: 10px;
@@ -612,7 +624,28 @@ img.icon:hover {
   .big-project-descr-right > .button-link {
     margin-bottom: 0px;
   }
-  .button-link.small-project-title {
+  .project-description {
+    max-width: 700px;
+    margin: 0 auto;
+    float: none;
+  }
+  .project-description > h1, h4 {
+    text-align: center;
+  }
+  .project-header img {
+    max-width: inherit;
+  }
+  .row.project-header {
+    margin: 0px;
+  }
+  .next, .back {
+    margin: 0px 15px 50px 15px;
+  }
+  .last {
+    padding: 0;
+  }
+
+.button-link.small-project-title {
     margin: 100px;
   }
   .res-animate{
