@@ -19,6 +19,10 @@
   margin-top: 44px;
 }
 
+.wrapper .project-page {
+  max-width: 1000px;
+}
+
 /* Sticky footer styles */
 html {
   position: relative;
@@ -244,8 +248,8 @@ p {
 }
 
 #oam-cover {
-  height: 150px;
-  margin-top: 75px;
+  left: 25%;
+  margin-top: 50px;
 }
 
 .color {
@@ -449,7 +453,12 @@ svg {
 
 .project-page {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 50px;
+}
+
+.project-page .row {
+  margin-left: 50px;
+  margin-right: 50px
 }
 
 .project-nav {
@@ -476,8 +485,8 @@ svg {
 }
 
 .project-text {
+  font-size: 24px;
   text-align: left;
-  max-width: 700px;
   padding: 40px 0px;
   display: inline-block;
 }
