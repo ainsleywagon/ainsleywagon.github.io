@@ -19,6 +19,10 @@
   margin-top: 44px;
 }
 
+.wrapper .project-page {
+  max-width: 1000px;
+}
+
 /* Sticky footer styles */
 html {
   position: relative;
@@ -216,6 +220,7 @@ p {
 
 .big-project-image {
   margin-top: 20px;
+  position: relative;
 }
 
 .big-project-descr-left {
@@ -237,10 +242,14 @@ p {
   display: block;
 }
 
-#cover {
-  width: 400px;
-  max-width: 100%;
-  max-height: 100%;
+.cover {
+  top: 50%;
+  max-width: 75%;
+}
+
+#oam-cover {
+  left: 25%;
+  margin-top: 50px;
 }
 
 .color {
@@ -443,8 +452,9 @@ svg {
 /* PROJECT PAGE TEMPLATE */
 
 .project-page {
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-nav {
@@ -471,8 +481,8 @@ svg {
 }
 
 .project-text {
+  font-size: 24px;
   text-align: left;
-  max-width: 700px;
   padding: 40px 0px;
   display: inline-block;
 }
