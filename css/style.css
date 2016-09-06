@@ -243,8 +243,8 @@ p {
 }
 
 .cover {
-  position: absolute;
   top: 50%;
+  max-width: 75%;
 }
 
 #oam-cover {
@@ -452,13 +452,9 @@ svg {
 /* PROJECT PAGE TEMPLATE */
 
 .project-page {
-  max-width: 1000px;
-  margin: 50px;
-}
-
-.project-page .row {
-  margin-left: 50px;
-  margin-right: 50px
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-nav {
