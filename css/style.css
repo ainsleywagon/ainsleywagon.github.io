@@ -17,6 +17,7 @@
 
 .wrapper {
   margin-top: 44px;
+  padding: 20px;
 }
 
 .wrapper .project-page {
@@ -74,10 +75,6 @@ body > .container {
 #name {
   text-align: center;
   font-family: 'Karla', sans-serif;
-}
-
-#small-name {
-  visibility: hidden;
 }
 
 .footer > .container {
@@ -195,9 +192,35 @@ p {
   margin-left: 0;
   margin-right: 0;
 }
-.projects {
-  height: 350px;
+.project {
+  height: 600px;
   width: 100%;
+}
+
+.section {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#p1 {
+  background-color: #6f2665;
+}
+
+#p2 {
+  background-color: #1f3a0d;
+}
+
+.placard {
+  background-color: white;
+  flex-basis: 30%;
+  text-align: center;
+  height: 100px;
+  align-items: center;
+  border: 10px solid black;
 }
 
 .cover-link {
@@ -615,8 +638,9 @@ img.icon:hover {
   .footer {
     position: relative;
   }
-  .projects {
+  .project {
     height: auto;
+    height: 600px;
   }
   body {
     margin-bottom: 0px;
