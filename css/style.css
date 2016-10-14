@@ -1,5 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka');
+
+font-family: 'EB Garamond', serif;
+font-family: 'Gentium Basic', serif;
+font-family: 'Old Standard TT', serif;
+font-family: 'Vidaloka', serif;
+font-family: 'Suez One', serif;
 
 .navbar-default {
   background-color: #F8F8F8;
@@ -17,7 +24,7 @@
 
 .wrapper {
   margin-top: 44px;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
 .wrapper .project-page {
@@ -32,8 +39,9 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Vidaloka', serif, 'Karla', sans-serif;
   line-height: 1.4;
+  background-color: black;
 }
 
 .footer {
@@ -75,6 +83,7 @@ body > .container {
 #name {
   text-align: center;
   font-family: 'Karla', sans-serif;
+  letter-spacing: 3px
 }
 
 .footer > .container {
@@ -192,10 +201,6 @@ p {
   margin-left: 0;
   margin-right: 0;
 }
-.project {
-  height: 600px;
-  width: 100%;
-}
 
 .section {
   height: 600px;
@@ -206,129 +211,73 @@ p {
   margin-bottom: 20px;
 }
 
-#p1 {
+.p1 {
   background-color: #6f2665;
+  background-image: url('../images/patterns/pattern1.png');
 }
 
-#p2 {
+.p1:hover {
+  /*border: 10px solid #e77a80;*/
+}
+
+.p2 {
   background-color: #1f3a0d;
 }
 
 .placard {
+  letter-spacing: 7px;
   background-color: white;
-  flex-basis: 30%;
+  flex-basis: 40%;
   text-align: center;
-  height: 100px;
+  line-height: 240px;
+  height: 240px;
+  width: 575px;
   align-items: center;
+  justify-content: center;
   border: 10px solid black;
-}
-
-.cover-link {
+  font-size: 64pt;
   color: black;
 }
 
-.cover-link:hover {
+.placard p {
+  font-size: 18pt;
+}
+
+.placard:hover {
+  background-color: #e77a80;
+  border-color: white;
+}
+
+.plac1 {
+  border: 10px solid blue;
+}
+
+.plac1:hover {
+  border: 10px solid green;
+}
+
+.p2 .placard {
+  border: 10px solid purple;
+}
+
+.p3 .placard {
+  border: 10px solid purple;
+}
+
+.p4 .placard {
+  border: 10px solid purple;
+}
+
+a.placard {
   text-decoration: none;
+}
+
+a.placard:hover {
   color: black;
-}
-
-.project-title {
-  line-height: 1.1;
-}
-
-.big-project {
-  height: 100%;
-  text-align: center;
-}
-
-.big-project-image {
-  margin-top: 20px;
-  position: relative;
-}
-
-.big-project-descr-left {
-  height: 100%;
-  margin-top: 120px;
-  text-align: left;
-}
-
-.big-project-descr-right {
-  margin-top: 50px;
-  text-align: right;
-}
-
-.project-title {
-  line-height: 1.1;
-}
-
-.project-link {
-  display: block;
-}
-
-.cover {
-  top: 50%;
-  max-width: 75%;
-}
-
-#oam-cover {
-  left: 25%;
-  margin-top: 50px;
-}
-
-.color {
-  background-color: gold;
-}
-
-.small-project {
-  height: 100%;
-  text-align: center;
-}
-
-.small-project:hover {
-  height: 100%;
-  text-align: center;
 }
 
 .tags {
   color: gray;
-}
-
-.pattern {
-  transition: background-image .5s ease-in-out;
-  -webkit-transition: background-image .5s ease-in-out;
-  -moz-transition: background-image .5s ease-in-out;
-}
-
-.pat-1 {
-  background-image: url('../images/pattern-8-light.png')
-}
-
-.pat-1:hover {
-  background-image: url('../images/pattern-8-dark.png')
-}
-
-.pat-2 {
-  background-image: url('../images/pattern-6-light.png')
-}
-
-.pat-2:hover {
-  background-image: url('../images/pattern-6-dark.png')
-}
-
-.pat-3 {
-  background-image: url('../images/pattern-7-light.png')
-}
-
-.pat-3:hover {
-  background-image: url('../images/pattern-7-dark.png')
-}
-
-.pat-4 {
-  background-image: url('../images/pattern-coffee.png')
-}
-
-.pat-4:hover {
-  background-image: url('../images/pattern-coffee-dark.png')
 }
 
 .button-link {
@@ -349,13 +298,6 @@ p {
   color: white;
   background-color: black;
   -webkit-transition: background .5s, color .5s;
-}
-
-.small-project-title {
-  background-color: white;
-  margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .resume {
@@ -563,6 +505,7 @@ img.about {
   margin-bottom: 200px;
   padding-top: 40px;
 }
+
 /* Resume */
 
  #resume {
