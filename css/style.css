@@ -212,7 +212,6 @@ p {
 }
 
 .p1 {
-  background-color: #6f2665;
   background-image: url('../images/patterns/pattern1.png');
 }
 
@@ -243,17 +242,12 @@ p {
   font-size: 18pt;
 }
 
-.placard:hover {
-  background-color: #e77a80;
-  border-color: white;
-}
-
 .plac1 {
-  border: 10px solid blue;
+  border: 10px solid #e77a80;
 }
 
 .plac1:hover {
-  border: 10px solid green;
+  border: 10px solid white;
 }
 
 .p2 .placard {
