@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One');
 
 font-family: 'EB Garamond', serif;
 font-family: 'Gentium Basic', serif;
@@ -10,12 +10,13 @@ font-family: 'Suez One', serif;
 
 .navbar-default {
   background-color: #F8F8F8;
-  border-color: #E7E7E7;
+  border-color: #F8F8F8;
   height: 88px;
 }
 
 .navbar-nav {
   margin-top: -55px;
+  font-family: 'Karla', sans-serif;
 }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
@@ -24,7 +25,7 @@ font-family: 'Suez One', serif;
 
 .wrapper {
   margin-top: 44px;
-  /*padding: 20px;*/
+  padding: 20px;
 }
 
 .wrapper .project-page {
@@ -39,9 +40,9 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  font-family: 'Vidaloka', serif, 'Karla', sans-serif;
+  font-family: 'Vidaloka', serif;
   line-height: 1.4;
-  background-color: black;
+  background-color: white;
 }
 
 .footer {
@@ -215,12 +216,24 @@ p {
   background-image: url('../images/patterns/pattern1.png');
 }
 
-.p1:hover {
-  /*border: 10px solid #e77a80;*/
+.p2 {
+  background-color: #e77a80;
 }
 
-.p2 {
+.p3 {
+  background-color: #2a5293;
+}
+
+.p4 {
+  background-image: url('../images/pattern2.png');
+}
+
+.p5 {
   background-color: #1f3a0d;
+}
+
+.p6 {
+  background-color: #ddb4aa;
 }
 
 .placard {
@@ -238,29 +251,47 @@ p {
   color: black;
 }
 
-.placard p {
-  font-size: 18pt;
+.placard:hover {
+  border: 10px solid white;
+}
+
+.p2:hover {
+  border: 10px solid white;
 }
 
 .plac1 {
   border: 10px solid #e77a80;
 }
 
-.plac1:hover {
-  border: 10px solid white;
+.p2 .placard {
+  border: 10px solid #161618;
+  font-family: 'Vampiro One', sans-serif;
 }
 
-.p2 .placard {
-  border: 10px solid purple;
+.placard p {
+  font-size: 14pt;
+  letter-spacing: 3px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  padding: 20px;
 }
 
 .p3 .placard {
-  border: 10px solid purple;
+  border: 10px solid #161618;
 }
 
 .p4 .placard {
-  border: 10px solid purple;
+  background-color: #f9ec31;
+  border: 10px solid white;
 }
+
+.p6 .placard {
+  border: 10px solid #f9ec31;
+}
+
 
 a.placard {
   text-decoration: none;
