@@ -26,10 +26,6 @@ font-family: 'Suez One', serif;
   margin-top: 34px;
 }
 
-.wrapper .project-page {
-  max-width: 1000px;
-}
-
 /* Sticky footer styles */
 html {
   position: relative;
@@ -460,6 +456,7 @@ svg {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
 }
 
 .project-nav {
