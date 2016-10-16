@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One');
 
 font-family: 'EB Garamond', serif;
@@ -9,8 +8,8 @@ font-family: 'Vidaloka', serif;
 font-family: 'Suez One', serif;
 
 .navbar-default {
-  background-color: #F8F8F8;
-  border-color: #F8F8F8;
+  background-color: #fafafa;
+  border-color: #fafafa;
   height: 88px;
 }
 
@@ -24,7 +23,7 @@ font-family: 'Suez One', serif;
 }
 
 .wrapper {
-  /*margin-top: 44px;*/
+  margin-top: 34px;
 }
 
 .wrapper .project-page {
@@ -49,8 +48,8 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
-  background-color: #f5f5f5;
+  height: 130px;
+  background-color: #fafafa;
   padding-top: 20px;
 }
 
@@ -81,9 +80,15 @@ body > .container {
 }
 
 #name {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Karla', sans-serif;
   letter-spacing: 3px
+}
+
+#name h1 {
+  margin-left: -60px;
 }
 
 .footer > .container {
@@ -203,7 +208,7 @@ p {
 }
 
 .section {
-  height: 600px;
+  height: 700px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -257,18 +262,25 @@ p {
 
 .p2 .placard {
   border: 10px solid #161618;
-  font-family: 'Vampiro One', sans-serif;
+  height: 260px;
 }
 
-.placard p {
-  font-size: 14pt;
-  letter-spacing: 3px;
+.quote {
+  font-family: 'Vampiro One', sans-serif;
+  font-size: 13pt;
+  letter-spacing: 2px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 200px;
-  padding: 20px;
+  height: 190px;
+  padding: 20px 25px 0px 25px;
+  margin-bottom: -20px;
+}
+
+.author {
+  font-family: 'Karla', sans-serif;
+  padding-top: 0px;
 }
 
 .p3 .placard {
@@ -294,6 +306,10 @@ p {
 
 a.placard {
   text-decoration: none;
+}
+
+a.placard:visited {
+  color: black;
 }
 
 a.placard:hover {
@@ -695,6 +711,6 @@ h1 {
 h2 {
   font-weight:normal;
   font-size:20px;
-  color:#888;
+  color: white;
   padding:5px 0;
 }
