@@ -24,8 +24,7 @@ font-family: 'Suez One', serif;
 }
 
 .wrapper {
-  margin-top: 44px;
-  padding: 20px;
+  /*margin-top: 44px;*/
 }
 
 .wrapper .project-page {
@@ -40,7 +39,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Karla', sans-serif;
   line-height: 1.4;
   background-color: white;
 }
@@ -237,6 +236,7 @@ p {
 }
 
 .placard {
+  font-family: 'Vidaloka', serif;
   letter-spacing: 7px;
   background-color: white;
   flex-basis: 40%;
@@ -249,14 +249,6 @@ p {
   border: 10px solid black;
   font-size: 64pt;
   color: black;
-}
-
-.placard:hover {
-  border: 10px solid white;
-}
-
-.p2:hover {
-  border: 10px solid white;
 }
 
 .plac1 {
@@ -288,10 +280,17 @@ p {
   border: 10px solid white;
 }
 
+.p4 .placard:hover {
+  border: 10px solid #f9ec31;
+}
+
 .p6 .placard {
   border: 10px solid #f9ec31;
 }
 
+.placard:hover {
+  border: 10px solid white;
+}
 
 a.placard {
   text-decoration: none;
@@ -510,7 +509,7 @@ svg {
 
 /* About */
 img.about {
-  height: 200px;
+  height: 150px;
   width: auto;
   border-radius: 50%;
   display: block;
@@ -519,7 +518,7 @@ img.about {
 
 .about-text {
   text-align: center;
-  max-width: 450px;
+  max-width: 400px;
 }
 
 #about {
@@ -527,14 +526,25 @@ img.about {
 }
 
 #about, .inner {
+  padding-top: 20px;
   margin-bottom: 200px;
-  padding-top: 40px;
 }
+
+.job-title {
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
 
 /* Resume */
 
  #resume {
-  background-color: lavender;
+  background-color: #ddb4aa;
   height: auto;
   font-size: 19px;
   line-height: 30px;
