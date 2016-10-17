@@ -1,12 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One');
 
-font-family: 'EB Garamond', serif;
-font-family: 'Gentium Basic', serif;
-font-family: 'Old Standard TT', serif;
-font-family: 'Vidaloka', serif;
-font-family: 'Suez One', serif;
-
 .navbar-default {
   background-color: #fafafa;
   border-color: #fafafa;
