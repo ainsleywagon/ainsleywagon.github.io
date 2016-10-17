@@ -240,11 +240,10 @@ p {
   font-family: 'Vidaloka', serif;
   letter-spacing: 7px;
   background-color: white;
-  flex-basis: 40%;
   text-align: center;
   line-height: 240px;
   height: 240px;
-  width: 575px;
+  width: 500px;
   align-items: center;
   justify-content: center;
   border: 10px solid black;
@@ -466,6 +465,7 @@ svg {
 .project-page img {
   display: block;
   margin: 0 auto;
+  max-width: 600px;
   height: 100%;
   width: 100%;
 }
@@ -487,10 +487,6 @@ svg {
   text-align: left;
   padding: 40px 0px;
   display: inline-block;
-}
-
-.last {
-  padding-bottom: 200px;
 }
 
 .project-descr-subheader {
@@ -626,40 +622,29 @@ img.icon:hover {
 
 /* Media Queries */
 @media screen and (max-width: 991px) {
-  .footer {
-    position: relative;
-  }
-  .project {
-    height: auto;
-    height: 600px;
-  }
   body {
     margin-bottom: 0px;
   }
-  .button-link {
-    margin-bottom: 50px;
+  .placard {
+    font-size: 52pt;
+    width: 420px;
   }
-  .big-project-descr-left, .big-project-descr-right {
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 0px;
-  }
-  .color {
-    padding-top: 10px;
-  }
-  .big-project-descr-right > .button-link {
-    margin-bottom: 0px;
+  .quote {
+    font-size: 11pt;
+    letter-spacing: 2px;
+    margin-bottom: -10px;
   }
   .project-description {
     max-width: 700px;
     margin: 0 auto;
     float: none;
+    text-align: center;
   }
   .project-description > h1, h4 {
     text-align: center;
   }
   .project-header img {
-    max-width: inherit;
+    max-width: 50%;
   }
   .row.project-header {
     margin: 0px;
@@ -671,9 +656,6 @@ img.icon:hover {
     padding: 0;
   }
 
-.button-link.small-project-title {
-    margin: 100px;
-  }
   .res-animate{
     height: 300px;
   }
@@ -695,6 +677,10 @@ img.icon:hover {
   }
   .message {
     top: -296px;
+  }
+  .placard {
+    font-size: 40pt;
+    width: 350px;
   }
 }
 
