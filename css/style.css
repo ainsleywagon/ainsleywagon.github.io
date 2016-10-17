@@ -1,14 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One');
 
 .navbar-default {
-  background-color: #F8F8F8;
-  border-color: #E7E7E7;
+  background-color: #fafafa;
+  border-color: #fafafa;
   height: 88px;
 }
 
 .navbar-nav {
   margin-top: -55px;
+  font-family: 'Karla', sans-serif;
 }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
@@ -16,11 +17,7 @@
 }
 
 .wrapper {
-  margin-top: 44px;
-}
-
-.wrapper .project-page {
-  max-width: 1000px;
+  margin-top: 34px;
 }
 
 /* Sticky footer styles */
@@ -33,6 +30,7 @@ body {
   margin-bottom: 60px;
   font-family: 'Karla', sans-serif;
   line-height: 1.4;
+  background-color: white;
 }
 
 .footer {
@@ -40,8 +38,8 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
-  background-color: #f5f5f5;
+  height: 130px;
+  background-color: #fafafa;
   padding-top: 20px;
 }
 
@@ -72,12 +70,15 @@ body > .container {
 }
 
 #name {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Karla', sans-serif;
+  letter-spacing: 3px
 }
 
-#small-name {
-  visibility: hidden;
+#name h1 {
+  margin-left: -60px;
 }
 
 .footer > .container {
@@ -133,17 +134,18 @@ code {
   position:absolute;
   right: 0px;
   cursor:pointer;
-  padding:5px;
-  background: gold;
-  width: 30px;
+  background: #e77a80;
+  width: 50px;
+  height: 50px;
+  border: 5px solid black;
   border-radius: 100px;
-  color: gray;
-  line-height:20px;
-  font-size:12px;
+  color: white;
+  line-height:40px;
+  font-size:24px;
   text-align:center;
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
-  margin:30px 30px;
+  margin: 15px 30px;
   transition:all 500ms ease;
 }
 #toggle + label:after {
@@ -155,7 +157,8 @@ code {
 }
 
 #toggle:checked + label {
-  background: tomato;
+  background: #e77a80;
+  border: 5px solid #e77a80;
   z-index: 9999;
 }
 
@@ -195,117 +198,117 @@ p {
   margin-left: 0;
   margin-right: 0;
 }
-.projects {
-  height: 350px;
-  width: 100%;
+
+.section {
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.cover-link {
+.p1 {
+  background-image: url('../images/patterns/pattern1.png');
+}
+
+.p2 {
+  background-color: #e77a80;
+}
+
+.p3 {
+  background-color: #2a5293;
+}
+
+.p4 {
+  background-image: url('../images/pattern2.png');
+}
+
+.p5 {
+  background-color: #1f3a0d;
+}
+
+.p6 {
+  background-color: #ddb4aa;
+}
+
+.placard {
+  font-family: 'Vidaloka', serif;
+  letter-spacing: 7px;
+  background-color: white;
+  text-align: center;
+  line-height: 240px;
+  height: 240px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid black;
+  font-size: 64pt;
   color: black;
 }
 
-.cover-link:hover {
+.plac1 {
+  border: 10px solid #e77a80;
+}
+
+.p2 .placard {
+  border: 10px solid #161618;
+  height: 260px;
+}
+
+.quote {
+  font-family: 'Vampiro One', sans-serif;
+  font-size: 13pt;
+  letter-spacing: 2px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 190px;
+  padding: 20px 25px 0px 25px;
+  margin-bottom: -20px;
+}
+
+.author {
+  font-family: 'Karla', sans-serif;
+  padding-top: 0px;
+}
+
+.p3 .placard {
+  border: 10px solid #161618;
+}
+
+.p4 .placard {
+  background-color: #f9ec31;
+  border: 10px solid white;
+}
+
+.p4 .placard:hover {
+  border: 10px solid #f9ec31;
+}
+
+.p6 .placard {
+  border: 10px solid #f9ec31;
+}
+
+.placard:hover {
+  border: 10px solid white;
+}
+
+a.placard {
   text-decoration: none;
+}
+
+a.placard:visited {
   color: black;
 }
 
-.project-title {
-  line-height: 1.1;
-}
-
-.big-project {
-  height: 100%;
-  text-align: center;
-}
-
-.big-project-image {
-  margin-top: 20px;
-  position: relative;
-}
-
-.big-project-descr-left {
-  height: 100%;
-  margin-top: 120px;
-  text-align: left;
-}
-
-.big-project-descr-right {
-  margin-top: 50px;
-  text-align: right;
-}
-
-.project-title {
-  line-height: 1.1;
-}
-
-.project-link {
-  display: block;
-}
-
-.cover {
-  top: 50%;
-  max-width: 75%;
-}
-
-#oam-cover {
-  left: 25%;
-  margin-top: 50px;
-}
-
-.color {
-  background-color: gold;
-}
-
-.small-project {
-  height: 100%;
-  text-align: center;
-}
-
-.small-project:hover {
-  height: 100%;
-  text-align: center;
+a.placard:hover {
+  color: black;
 }
 
 .tags {
   color: gray;
-}
-
-.pattern {
-  transition: background-image .5s ease-in-out;
-  -webkit-transition: background-image .5s ease-in-out;
-  -moz-transition: background-image .5s ease-in-out;
-}
-
-.pat-1 {
-  background-image: url('../images/pattern-8-light.png')
-}
-
-.pat-1:hover {
-  background-image: url('../images/pattern-8-dark.png')
-}
-
-.pat-2 {
-  background-image: url('../images/pattern-6-light.png')
-}
-
-.pat-2:hover {
-  background-image: url('../images/pattern-6-dark.png')
-}
-
-.pat-3 {
-  background-image: url('../images/pattern-7-light.png')
-}
-
-.pat-3:hover {
-  background-image: url('../images/pattern-7-dark.png')
-}
-
-.pat-4 {
-  background-image: url('../images/pattern-coffee.png')
-}
-
-.pat-4:hover {
-  background-image: url('../images/pattern-coffee-dark.png')
 }
 
 .button-link {
@@ -326,13 +329,6 @@ p {
   color: white;
   background-color: black;
   -webkit-transition: background .5s, color .5s;
-}
-
-.small-project-title {
-  background-color: white;
-  margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .resume {
@@ -455,6 +451,7 @@ svg {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
 }
 
 .project-nav {
@@ -464,6 +461,7 @@ svg {
 .project-page img {
   display: block;
   margin: 0 auto;
+  max-width: 600px;
   height: 100%;
   width: 100%;
 }
@@ -485,10 +483,6 @@ svg {
   text-align: left;
   padding: 40px 0px;
   display: inline-block;
-}
-
-.last {
-  padding-bottom: 200px;
 }
 
 .project-descr-subheader {
@@ -520,7 +514,7 @@ svg {
 
 /* About */
 img.about {
-  height: 200px;
+  height: 150px;
   width: auto;
   border-radius: 50%;
   display: block;
@@ -529,21 +523,32 @@ img.about {
 
 .about-text {
   text-align: center;
-  max-width: 450px;
+  max-width: 400px;
+  padding-top: 20px;
 }
 
 #about {
-  padding: 40px 0px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#about, .inner {
-  margin-bottom: 200px;
-  padding-top: 40px;
+.job-title {
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-bottom: 0px;
 }
+
+
 /* Resume */
 
  #resume {
-  background-color: lavender;
+  background-color: #ddb4aa;
   height: auto;
   font-size: 19px;
   line-height: 30px;
@@ -612,39 +617,29 @@ img.icon:hover {
 
 /* Media Queries */
 @media screen and (max-width: 991px) {
-  .footer {
-    position: relative;
-  }
-  .projects {
-    height: auto;
-  }
   body {
     margin-bottom: 0px;
   }
-  .button-link {
-    margin-bottom: 50px;
+  .placard {
+    font-size: 52pt;
+    width: 420px;
   }
-  .big-project-descr-left, .big-project-descr-right {
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 0px;
-  }
-  .color {
-    padding-top: 10px;
-  }
-  .big-project-descr-right > .button-link {
-    margin-bottom: 0px;
+  .quote {
+    font-size: 11pt;
+    letter-spacing: 2px;
+    margin-bottom: -10px;
   }
   .project-description {
     max-width: 700px;
     margin: 0 auto;
     float: none;
+    text-align: center;
   }
   .project-description > h1, h4 {
     text-align: center;
   }
   .project-header img {
-    max-width: inherit;
+    max-width: 50%;
   }
   .row.project-header {
     margin: 0px;
@@ -656,9 +651,6 @@ img.icon:hover {
     padding: 0;
   }
 
-.button-link.small-project-title {
-    margin: 100px;
-  }
   .res-animate{
     height: 300px;
   }
@@ -681,6 +673,10 @@ img.icon:hover {
   .message {
     top: -296px;
   }
+  .placard {
+    font-size: 40pt;
+    width: 350px;
+  }
 }
 
 h1 {
@@ -693,6 +689,6 @@ h1 {
 h2 {
   font-weight:normal;
   font-size:20px;
-  color:#888;
+  color: white;
   padding:5px 0;
 }
