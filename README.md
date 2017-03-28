@@ -2,4 +2,6 @@
 # Ainsley Wagoner Portfolio
 
 
-Finally doing it myself, by golly!
+Jekyll serve
+
+also: http://lea.verou.me/2011/10/easily-keep-gh-pages-in-sync-with-master/
