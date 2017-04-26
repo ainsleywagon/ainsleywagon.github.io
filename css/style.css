@@ -228,7 +228,15 @@ p {
   background-color: #1f3a0d;
 }
 
-.p6 {
+.row .section .p6 {
+  background-image: url('../images/patterns/pattern3.png');
+}
+
+.p7 {
+  background-color: #791217;
+}
+
+.p8 {
   background-color: #ddb4aa;
 }
 
@@ -284,10 +292,6 @@ p {
 }
 
 .p4 .placard:hover {
-  border: 10px solid #f9ec31;
-}
-
-.p6 .placard {
   border: 10px solid #f9ec31;
 }
 
