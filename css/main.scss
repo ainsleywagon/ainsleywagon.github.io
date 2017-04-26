@@ -180,13 +180,12 @@ code {
   position:absolute;
   right: 0px;
   cursor:pointer;
-  background: #e77a80;
-  width: 50px;
-  height: 50px;
-  border: 5px solid black;
+  background: #bda43c;
+  width: 40px;
+  height: 40px;
   border-radius: 100px;
   color: white;
-  line-height:40px;
+  line-height:39px;
   font-size:24px;
   text-align:center;
   -webkit-font-smoothing: antialiased;
@@ -203,8 +202,7 @@ code {
 }
 
 #toggle:checked + label {
-  background: #e77a80;
-  border: 5px solid #e77a80;
+  background: #ddb4aa;
   z-index: 9999;
 }
 
