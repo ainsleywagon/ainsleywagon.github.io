@@ -228,22 +228,6 @@ p {
   background-color: #1f3a0d;
 }
 
-.p6 {
-  background-image: url('../images/patterns/pattern3.png');
-}
-
-.p6 > img {
-  max-width: 300px;
-}
-
-.p7 {
-  background-color: #791217;
-}
-
-.p8 {
-  background-color: #ddb4aa;
-}
-
 .placard {
   font-family: 'Vidaloka', serif;
   letter-spacing: 7px;
@@ -288,11 +272,6 @@ p {
 
 .p3 .placard {
   border: 10px solid #161618;
-}
-
-.p3 a.placard:visited {
-  font-size: 33pt;
-  letter-spacing: 4px;
 }
 
 .p4 .placard {

@@ -275,6 +275,19 @@ p {
 }
 
 .p6 {
+  background-image: url('../images/patterns/pattern3.png');
+}
+
+.p6 > img {
+  width: 500px;
+  max-width: 50%;
+}
+
+.p7 {
+  background-color: #791217;
+}
+
+.p8 {
   background-color: #ddb4aa;
 }
 
@@ -324,6 +337,11 @@ p {
   border: 10px solid #161618;
 }
 
+.p3 a {
+  font-size: 33pt;
+  letter-spacing: 4px;
+}
+
 .p4 .placard {
   background-color: #f9ec31;
   border: 10px solid white;
@@ -331,6 +349,11 @@ p {
 
 .p4 .placard:hover {
   border: 10px solid #f9ec31;
+}
+
+.p5 a {
+  font-size: 40pt;
+  letter-spacing: 5px;
 }
 
 .p6 .placard {
@@ -710,7 +733,11 @@ img.icon:hover {
 
 @media screen and (max-width: 767px) {
   #name {
-    display: none;
+    font-size: 20px;
+    margin-top: -27px;
+    letter-spacing: 1px;
+    h1 {
+    }
   }
   .navbar-brand img {
     margin-top: -15px;
@@ -722,6 +749,10 @@ img.icon:hover {
   .placard {
     font-size: 40pt;
     width: 350px;
+  }
+  .p3 a {
+    font-size: 24pt;
+    letter-spacing: 4px;
   }
 }
 
