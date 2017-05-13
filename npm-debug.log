@@ -1,23 +1,21 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/Users/wagoner/.nvm/versions/node/v4.3.1/bin/node',
-1 verbose cli   '/Users/wagoner/.nvm/versions/node/v4.3.1/bin/npm',
+1 verbose cli [ '/Users/AinsleyYo/.nvm/versions/node/v5.0.0/bin/node',
+1 verbose cli   '/Users/AinsleyYo/.nvm/versions/node/v5.0.0/bin/npm',
 1 verbose cli   'start' ]
-2 info using npm@3.8.2
-3 info using node@v4.3.1
-4 verbose config Skipping project config: /Users/wagoner/.npmrc. (matches userconfig)
-5 verbose stack Error: ENOENT: no such file or directory, open '/Users/wagoner/package.json'
-5 verbose stack     at Error (native)
-6 verbose cwd /Users/wagoner/Desktop/Code/ainsleywagon.github.io
-7 error Darwin 15.6.0
-8 error argv "/Users/wagoner/.nvm/versions/node/v4.3.1/bin/node" "/Users/wagoner/.nvm/versions/node/v4.3.1/bin/npm" "start"
-9 error node v4.3.1
-10 error npm  v3.8.2
-11 error path /Users/wagoner/package.json
-12 error code ENOENT
-13 error errno -2
-14 error syscall open
-15 error enoent ENOENT: no such file or directory, open '/Users/wagoner/package.json'
-16 error enoent ENOENT: no such file or directory, open '/Users/wagoner/package.json'
-16 error enoent This is most likely not a problem with npm itself
-16 error enoent and is related to npm not being able to find a file.
-17 verbose exit [ -2, true ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose stack Error: ENOENT: no such file or directory, open '/Users/AinsleyYo/Desktop/Code/ainsleywagon.github.io/package.json'
+4 verbose stack     at Error (native)
+5 verbose cwd /Users/AinsleyYo/Desktop/Code/ainsleywagon.github.io
+6 error Darwin 15.6.0
+7 error argv "/Users/AinsleyYo/.nvm/versions/node/v5.0.0/bin/node" "/Users/AinsleyYo/.nvm/versions/node/v5.0.0/bin/npm" "start"
+8 error node v5.0.0
+9 error npm  v3.3.6
+10 error path /Users/AinsleyYo/Desktop/Code/ainsleywagon.github.io/package.json
+11 error code ENOENT
+12 error errno -2
+13 error syscall open
+14 error enoent ENOENT: no such file or directory, open '/Users/AinsleyYo/Desktop/Code/ainsleywagon.github.io/package.json'
+14 error enoent This is most likely not a problem with npm itself
+14 error enoent and is related to npm not being able to find a file.
+15 verbose exit [ -2, true ]
