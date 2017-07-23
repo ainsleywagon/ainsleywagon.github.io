@@ -45,7 +45,7 @@ $on-laptop:        800px;
 
 
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One|Alegreya');
 
 .navbar-default {
   background-color: #fafafa;
@@ -313,6 +313,12 @@ p {
   height: 260px;
 }
 
+.p2 a {
+  font-family: 'Alegreya';
+  font-size: 19pt;
+  letter-spacing: 1px;
+}
+
 .quote {
   font-family: 'Vampiro One', sans-serif;
   font-size: 13pt;
@@ -337,6 +343,7 @@ p {
 
 .p3 a {
   font-size: 33pt;
+  font-family: 'Vidaloka';
   letter-spacing: 4px;
 }
 
@@ -747,6 +754,9 @@ img.icon:hover {
   .placard {
     font-size: 40pt;
     width: 350px;
+  }
+  .p2 a {
+    font-size: 16pt;
   }
   .p3 a {
     font-size: 24pt;
