@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 .navbar-default {
   background-color: #fafafa;
@@ -229,7 +230,7 @@ p {
 }
 
 .placard {
-  font-family: 'Vidaloka', serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 7px;
   background-color: white;
   text-align: center;
