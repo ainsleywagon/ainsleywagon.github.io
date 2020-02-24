@@ -2,7 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
+@font-face {
+  font-family: 'Metropolis';
+  src: url('Metropolis/EOT/Metropolis-ExtraBoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('Metropolis/EOT/Metropolis-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Metropolis/WOFF2/Metropolis-ExtraBoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Metropolis/WOFF/Metropolis-ExtraBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+}
 
 
 // Our variables
@@ -253,15 +259,15 @@ p {
 }
 
 .p1 {
-  background-image: url('../images/patterns/pattern1.png');
+  background-color: #efbecf;
 }
 
 .p2 {
-  background-color: #e77a80;
+  background-image: url('../images/sunset-1@2x.png');
 }
 
 .p3 {
-  background-color: #2a5293;
+  background-color: #fafafa;
 }
 
 .p4 {
@@ -304,19 +310,25 @@ p {
   color: black;
 }
 
-.plac1 {
-  border: 10px solid #e77a80;
+.p1 .placard {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 100pt;
+  background-color: transparent;
+  border: none;
+  color: white;
 }
 
 .p2 .placard {
-  border: 10px solid #161618;
-  height: 260px;
+  background-color: transparent;
+  border: none;
 }
 
 .p2 a {
-  font-family: 'Alegreya';
-  font-size: 19pt;
-  letter-spacing: 1px;
+  font-family: 'Poppins';
+  font-size: 60pt;
+  font-weight: 700;
 }
 
 .quote {
@@ -338,13 +350,13 @@ p {
 }
 
 .p3 .placard {
-  border: 10px solid #161618;
+  border: none;
+  background-color: transparent;
 }
 
 .p3 a {
-  font-size: 33pt;
-  font-family: 'Vidaloka';
-  letter-spacing: 4px;
+  color: #efbecf;
+  font-size: 48pt;
 }
 
 .p4 .placard {
@@ -381,8 +393,24 @@ a.placard:visited {
   color: black;
 }
 
+a.plac1:visited {
+  color: white;
+}
+
+a.plac3:visited {
+  color: #efbecf;
+}
+
 a.placard:hover {
   color: black;
+}
+
+a.plac1:hover {
+  border: none;
+}
+
+a.plac3:hover {
+  border: none;
 }
 
 .tags {
