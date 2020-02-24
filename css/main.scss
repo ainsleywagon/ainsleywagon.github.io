@@ -271,7 +271,7 @@ p {
 }
 
 .p4 {
-  background-image: url('../images/pattern2.png');
+  background-color: #bfd3ff;
 }
 
 .p5 {
@@ -279,7 +279,7 @@ p {
 }
 
 .p6 {
-  background-image: url('../images/patterns/pattern3.png');
+  background-image: url('../images/sunset-2@2x.png');
 }
 
 .p6 > img {
@@ -360,12 +360,10 @@ p {
 }
 
 .p4 .placard {
-  background-color: #f9ec31;
-  border: 10px solid white;
-}
-
-.p4 .placard:hover {
-  border: 10px solid #f9ec31;
+  font-family: 'Metropolis', 'Poppins', sans-serif;
+  color: white;
+  background-color: transparent;
+  border: none;
 }
 
 .p5 a {
@@ -401,6 +399,10 @@ a.plac3:visited {
   color: #efbecf;
 }
 
+a.plac4:visited {
+  color: white;
+}
+
 a.placard:hover {
   color: black;
 }
@@ -409,7 +411,15 @@ a.plac1:hover {
   border: none;
 }
 
+a.plac2:hover {
+  border: none;
+}
+
 a.plac3:hover {
+  border: none;
+}
+
+a.plac4:hover {
   border: none;
 }
 
