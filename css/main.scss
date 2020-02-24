@@ -51,7 +51,7 @@ $on-laptop:        800px;
 
 
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One|Alegreya');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One|Alegreya|Arya');
 
 .navbar-default {
   background-color: #fafafa;
@@ -275,24 +275,15 @@ p {
 }
 
 .p5 {
-  background-color: #1f3a0d;
-}
-
-.p6 {
   background-image: url('../images/sunset-2@2x.png');
 }
 
-.p6 > img {
-  width: 500px;
-  max-width: 50%;
+.p6 {
+  background-color: #ffe2e2;
 }
 
 .p7 {
-  background-color: #791217;
-}
-
-.p8 {
-  background-color: #ddb4aa;
+  background-image: url('../images/sunset-3@2x.png');
 }
 
 .placard {
@@ -332,14 +323,13 @@ p {
 }
 
 .quote {
-  font-family: 'Vampiro One', sans-serif;
+  font-family: 'Arya', sans-serif;
   font-size: 13pt;
   letter-spacing: 2px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 190px;
   padding: 20px 25px 0px 25px;
   margin-bottom: -20px;
 }
@@ -367,16 +357,24 @@ p {
 }
 
 .p5 a {
-  font-size: 40pt;
-  letter-spacing: 5px;
+  font-size: 20pt;
+  line-height: 24pt;
 }
 
-.p6 .placard {
-  border: 10px solid #f9ec31;
+.p6 a {
+  font-size: 18pt;
 }
 
 .p7 a {
-  font-size: 18pt;
+  font-size: 70pt;
+}
+
+.p7 .placard {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  background-color: transparent;
+  border: none;
 }
 
 .placard:hover {
@@ -420,6 +418,10 @@ a.plac3:hover {
 }
 
 a.plac4:hover {
+  border: none;
+}
+
+a.plac7:hover {
   border: none;
 }
 
