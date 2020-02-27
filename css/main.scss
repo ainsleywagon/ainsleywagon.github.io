@@ -4,10 +4,10 @@
 @charset "utf-8";
 @font-face {
   font-family: 'Metropolis';
-  src: url('Metropolis/EOT'); /* IE9 Compat Modes */
-  src: url('Metropolis/EOT') format('embedded-opentype'), /* IE6-IE8 */
-       url('Metropolis/WOFF2/') format('woff2'), /* Super Modern Browsers */
-       url('Metropolis/WOFF/') format('woff'), /* Pretty Modern Browsers */
+  src: url('Metropolis/EOT/Metropolis-Bold.eot'); /* IE9 Compat Modes */
+  src: url('Metropolis/EOT/Metropolis-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Metropolis/WOFF2/Metropolis-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Metropolis/WOFF/Metropolis-Bold.woff') format('woff'), /* Pretty Modern Browsers */
 }
 
 
@@ -303,6 +303,7 @@ p {
 }
 
 .p2 a {
+  color: black;
   font-size: 80pt;
   font-weight: 700;
 }
