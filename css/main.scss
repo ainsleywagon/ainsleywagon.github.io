@@ -99,7 +99,7 @@ body {
   /* Set the fixed height of the footer here */
   height: 130px;
   background-color: #fafafa;
-  padding-top: 20px;
+  padding-top: 45px;
 }
 
 
@@ -479,7 +479,7 @@ a.plac7:hover, a.plac2:hover {
 }
 
 .social-media li a:hover {
-  color: gold;
+  color: #ffe2e2;
 }
 
 /* Resume animated text */
@@ -647,7 +647,7 @@ img.about {
 }
 
 #about {
-  padding-top: 60px;
+  padding-top: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -657,9 +657,9 @@ img.about {
   text-align: center;
   letter-spacing: 0.3em;
   font-weight: 700;
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 40px;
   margin-bottom: 0px;
 }
 
@@ -667,12 +667,12 @@ img.about {
 /* Resume */
 
  #resume {
-  background-color: #ddb4aa;
+  background-color: #efbecf;
   height: auto;
   font-size: 19px;
   line-height: 30px;
   margin-bottom: 160px;
-  padding-bottom: 40px;
+  padding: 40px 0 40px 0;
 }
 
 #resume .inner {
