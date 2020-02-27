@@ -4,10 +4,10 @@
 @charset "utf-8";
 @font-face {
   font-family: 'Metropolis';
-  src: url('Metropolis/EOT/Metropolis-ExtraBoldItalic.eot'); /* IE9 Compat Modes */
-  src: url('Metropolis/EOT/Metropolis-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('Metropolis/WOFF2/Metropolis-ExtraBoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('Metropolis/WOFF/Metropolis-ExtraBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+  src: url('Metropolis/EOT'); /* IE9 Compat Modes */
+  src: url('Metropolis/EOT') format('embedded-opentype'), /* IE6-IE8 */
+       url('Metropolis/WOFF2/') format('woff2'), /* Super Modern Browsers */
+       url('Metropolis/WOFF/') format('woff'), /* Pretty Modern Browsers */
 }
 
 
@@ -332,10 +332,13 @@ p {
 .p3 a {
   color: #efbecf;
   font-size: 70pt;
+  letter-spacing: 4px;
 }
 
 .p4 .placard {
   font-family: 'Metropolis', 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: 900;
   color: white;
 }
 
@@ -370,8 +373,7 @@ p {
 
 .p6 a {
   font-family: 'Metropolis', 'Poppins', sans-serif;
-  font-size: 40pt;
-  line-height: 50pt;
+  font-size: 55pt;
   font-weight: bold;
 }
 
@@ -400,7 +402,7 @@ a.placard:visited {
   color: black;
 }
 
-a.plac1:visited {
+a.plac1:visited, a.plac4:visited, a.plac6:visited {
   color: white;
 }
 
@@ -408,23 +410,11 @@ a.plac3:visited {
   color: #efbecf;
 }
 
-a.plac4:visited {
-  color: white;
-}
-
-a.plac6:visited {
-  color: white;
-}
-
-a.plac7:visited {
-  color: black;
-}
-
 a.placard:hover {
   color: black;
 }
 
-a.plac7:hover {
+a.plac7:hover, a.plac2:hover {
   color: white;
 }
 
@@ -743,13 +733,15 @@ img.icon:hover {
   }
   .placard {
     font-size: 52pt;
-    width: 420px;
   }
   .p1 .placard {
     font-size: 120pt;
   }
   .p2 .placard {
     font-size: 50pt;
+  }
+  .p4 a{
+    font-size: 70pt;
   }
   .quote {
     font-size: 11pt;
@@ -805,18 +797,23 @@ img.icon:hover {
   }
   .placard {
     font-size: 40pt;
-    width: 340px;
   }
   .p1 .placard {
     font-size: 80pt;
     width: 260px;
   }
   .p2 a {
-    font-size: 16pt;
+    font-size: 14pt;
   }
   .p3 a {
-    font-size: 24pt;
+    font-size: 30pt;
     letter-spacing: 4px;
+  }
+  .p4 a, .p6 a {
+    font-size: 40pt;
+  }
+  .p7 a {
+  font-size: 70pt;
   }
 }
 
