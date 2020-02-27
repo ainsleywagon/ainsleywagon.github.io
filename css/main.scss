@@ -3,13 +3,20 @@
 ---
 @charset "utf-8";
 @font-face {
-  font-family: 'Metropolis';
+  font-family: 'MetropolisBold';
   src: url('Metropolis/EOT/Metropolis-Bold.eot'); /* IE9 Compat Modes */
   src: url('Metropolis/EOT/Metropolis-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('Metropolis/WOFF2/Metropolis-Bold.woff2') format('woff2'), /* Super Modern Browsers */
        url('Metropolis/WOFF/Metropolis-Bold.woff') format('woff'), /* Pretty Modern Browsers */
 }
 
+@font-face {
+  font-family: 'MetropolisExtraBoldItalic';
+  src: url('Metropolis/EOT/Metropolis-ExtraBoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('Metropolis/EOT/Metropolis-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Metropolis/WOFF2/Metropolis-ExtraBoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Metropolis/WOFF/Metropolis-ExtraBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+}
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
@@ -337,7 +344,7 @@ p {
 }
 
 .p4 .placard {
-  font-family: 'Metropolis', 'Poppins', sans-serif;
+  font-family: 'MetropolisExtraBoldItalic', 'Poppins', sans-serif;
   font-style: italic;
   font-weight: 900;
   color: white;
@@ -373,7 +380,7 @@ p {
 }
 
 .p6 a {
-  font-family: 'Metropolis', 'Poppins', sans-serif;
+  font-family: 'MetropolisBold', 'Poppins', sans-serif;
   font-size: 55pt;
   font-weight: bold;
 }
