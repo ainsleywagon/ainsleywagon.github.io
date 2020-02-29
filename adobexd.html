@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+  <!-- page content -->
+  <div class="wrapper project-page">
+    <div class="row">
+      <div class="col-md-5">
+        <img src="images/responsive/constraints.gif" alt="Responsive Resize GIF" style="max-height: 300px; padding-top: 50px">
+      </div>
+      <div class="col-md-6 project-description">
+        <h1>Adobe XD</h1>
+        <h4 class="project-descr-subheader">Designing a smarter way to resize in XD.</h4>
+        <p>
+        In my time on the Adobe XD product design team, I’ve had a variety of projects - from creating an on-boarding tutorial to shaping a strategy for our vector drawing tools to adding core features to the product.</p>
+      </div>
+    </div>
+    <div class="row col-md-12">
+      <p class="project-text">
+        It’s hard to choose a favorite project, but one of the most complex that I’ve tackled so far was the addition of Responsive Resize to our suite of design tools.
+        <br>
+        <br>
+        <img src="images/responsive/responsive resize.png">
+        <br>
+        As a UX design tool, we’re always trying to help designers do their jobs as efficiently as possible, so we try to make smart assumptions about intentions. In the case of screen design, often when people are resizing groups of objects, they’re intending to stretch it to fit new device sizes. Prior to the addition of Responsive Resize, the default resizing behavior was to stretch those objects. So we wanted to introduce Responsive Resize as a way to let designers more quickly resize their elements. 
+        <br>
+        <br>
+        <img src="images/responsive/non-responsive.png">
+        We made the decision to have this feature on by default. We did this in part for discoverability, and in part because our research suggested that this is the behavior that people would want most of the time. Since we were changing the default resizing behavior it was important to do two things well: 
+        <ol class="project-list">
+          <li>It had to feel seamless and delightful.</li>
+          <li>We had to give people a way to turn off and/or that behavior 
+          and fall back to a scaled resize behavior.</li>
+        </ol>
+       </p>
+       <p class ="project-text">
+        To create a seamless experience, the engineering team developed logic that predicted where objects should remain “pinned” based on their location within a group. In short - things that were aligned left would stay left, things that were aligned center would stay centered, and things that were aligned right would stay pinned to the right.
+          <br>
+          <br>
+          <img src="images/responsive/canvas-decorations.png">
+         <br>
+        Since we wanted people to understand what was happening, I designed on-canvas decorations that allowed you to see where objects were pinned in relation to their container.
+        <br>
+        <br>
+        But of course there were nuances within that, so I also designed a UI in the property inspector panel that would allow you to manually set rules around where objects were pinned and if their height/width was fixed.
+        <img src="images/responsive/PI UI.png" style="width: auto;">
+        All good design is ultimately in service of the person using it, so that a task is easy for them, and they understand how to do and un-do it. For us, creating a simple experience was a complex process of back-end logic, on-canvas UI, property inspector UI, and keyboard shortcuts. 
+        <br>
+        <br>
+        Some challenges we faced:
+        <ol class="project-list">
+        <li>There are exceptions to every rule. 
+          <br>For instance - when you have an SVG icon, 
+          most times when you go to resize it, you don’t want Responsive Resize behavior. 
+          So we were able to recognize when an object was an SVG icon and turn off 
+          Responsive Resize by default.
+        </li>
+        <br>
+        <li>An easy “off” button. <br>Even though you could hold down a shift modifier key 
+          to override Responsive Resize, early testing showed that people wanted a way 
+          to just opt out of the behavior altogether. So I updated the original design 
+          to include an “off” switch.
+        </li>
+      </ol>
+    </p>
+    <p class="project-text">
+        <img src="images/responsive/PI updated.png" style="width: auto;">
+        Responsive Resize shipped in the summer of 2018, and has become one of our most relied-upon time-saving features. 
+      </p>
+    </div>
+
+    <div class="row project-nav">
+      <a class="button-link back" href="colorchart.html">previous</a>
+      <a class="button-link next" href="pinterest.html">next</a>
+    </div>
+  </div>
