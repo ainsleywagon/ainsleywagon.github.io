@@ -371,8 +371,6 @@ p {
 
 .p6 .placard {
   color: white;
-  width: 350px;
-  height: 240px;
   width: 500px;
   align-items: center;
   justify-content: center;
@@ -389,13 +387,16 @@ p {
   font-size: 120pt;
 }
 
+.row .section .p7 {
+  height: 800px;
+}
+
 .p7 .placard {
   font-family: acumin-pro, sans-serif;
   font-weight: 900;
   font-style: italic;
-  background-color: transparent;
-  border: none;
   color: black;
+  height: 300px;
 }
 
 .placard.plac5:hover {
@@ -571,6 +572,7 @@ svg {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .project-nav {
