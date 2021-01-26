@@ -847,5 +847,7 @@ h2 {
 }
 
 @media screen and (max-width: 393px) {
-
+  #name {
+    display: none;
+  }
 }
