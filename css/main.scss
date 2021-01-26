@@ -54,8 +54,6 @@ $on-laptop:        800px;
 }
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import 'base', 'layout', 'syntax-highlighting';
-
-
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic|Old+Standard+TT|Suez+One|Vidaloka|Vampiro+One|Alegreya|Arya|Poppins');
 
@@ -203,7 +201,7 @@ code {
   text-align:center;
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
-  margin: 15px 30px;
+  margin: 22px 30px;
   transition:all 500ms ease;
 }
 #toggle + label:after {
@@ -335,6 +333,7 @@ p {
 .p3 .placard {
   border: none;
   background-color: transparent;
+  text-align: center;
 }
 
 .p3 a {
@@ -348,13 +347,14 @@ p {
   font-style: italic;
   font-weight: 900;
   color: white;
+  text-align: center;
 }
 
 .p4 a {
   font-size: 100pt;
 }
 
-.p5 .placard {  
+.p5 .placard {
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0px;
   background-color: white;
@@ -802,8 +802,6 @@ img.icon:hover {
     font-size: 20px;
     margin-top: -27px;
     letter-spacing: 1px;
-    h1 {
-    }
   }
   .navbar-brand img {
     margin-top: -15px;
@@ -823,7 +821,7 @@ img.icon:hover {
     font-size: 14pt;
   }
   .p3 a {
-    font-size: 30pt;
+    font-size: 44pt;
     letter-spacing: 4px;
   }
   .p4 a, .p6 a {
@@ -846,4 +844,8 @@ h2 {
   font-size:20px;
   color: white;
   padding:5px 0;
+}
+
+@media screen and (max-width: 393px) {
+
 }
