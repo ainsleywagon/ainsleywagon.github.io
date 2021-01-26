@@ -1,11 +1,14 @@
 
 # Ainsley Wagoner Portfolio
 
-make sure Jekyll is installed and path is correct:
-```$ gem install -n /usr/local/bin jekyll```
+Using monfresh's script to keep ruby env and jekyll gems up to date:
+https://github.com/monfresh/laptop
 
+Script here:
+```bash <(curl -s https://raw.githubusercontent.com/monfresh/laptop/master/laptop)```
+Run this to update this
 
-Jekyll serve
+```Jekyll serve``` to spin up the local site
 
 Keeping project in sync with gh-pages:
 ```git add .
